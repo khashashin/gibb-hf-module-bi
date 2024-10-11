@@ -1,3 +1,6 @@
+USE ERStagindDB;
+GO
+
 IF OBJECT_ID('dbo.ERCountry', 'U') IS NOT NULL
 DROP TABLE dbo.ERCountry;
 
