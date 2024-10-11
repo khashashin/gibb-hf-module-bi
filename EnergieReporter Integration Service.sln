@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "EnergieReporter Integration Service", "EnergieReporter Integration Service\EnergieReporter Integration Service.dtproj", "{536B310C-015D-4684-B481-F0F5472E115E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{536B310C-015D-4684-B481-F0F5472E115E}.Development|Default.ActiveCfg = Development
+		{536B310C-015D-4684-B481-F0F5472E115E}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56F6EA52-2104-4B29-87EB-C5EA395C5D7E}
+	EndGlobalSection
+EndGlobal
