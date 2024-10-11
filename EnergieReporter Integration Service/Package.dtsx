@@ -11,8 +11,8 @@
   DTS:LocaleID="1031"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="103"
-  DTS:VersionGUID="{BC4FA8C6-37D1-44FF-BE0B-43BC7529AD86}">
+  DTS:VersionBuild="105"
+  DTS:VersionGUID="{BC4E3D50-44F2-42B4-925E-921E97671027}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -2955,11 +2955,11 @@
                       name="energyreporter_date" />
                     <externalMetadataColumn
                       refId="Package\Load Data\ERCanton.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[electric_car_share]"
-                      dataType="r4"
+                      dataType="r8"
                       name="electric_car_share" />
                     <externalMetadataColumn
                       refId="Package\Load Data\ERCanton.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[electric_car_count]"
-                      dataType="i2"
+                      dataType="i4"
                       name="electric_car_count" />
                     <externalMetadataColumn
                       refId="Package\Load Data\ERCanton.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[electric_car_share_last_change]"
@@ -2967,11 +2967,11 @@
                       name="electric_car_share_last_change" />
                     <externalMetadataColumn
                       refId="Package\Load Data\ERCanton.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[electric_car_charging_spot_count]"
-                      dataType="i2"
+                      dataType="i4"
                       name="electric_car_charging_spot_count" />
                     <externalMetadataColumn
                       refId="Package\Load Data\ERCanton.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[electric_cars_per_charging_spot]"
-                      dataType="r4"
+                      dataType="r8"
                       name="electric_cars_per_charging_spot" />
                     <externalMetadataColumn
                       refId="Package\Load Data\ERCanton.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[electric_car_charging_spot_last_change]"
@@ -2979,7 +2979,7 @@
                       name="electric_car_charging_spot_last_change" />
                     <externalMetadataColumn
                       refId="Package\Load Data\ERCanton.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[solar_potential_usage]"
-                      dataType="r4"
+                      dataType="r8"
                       name="solar_potential_usage" />
                     <externalMetadataColumn
                       refId="Package\Load Data\ERCanton.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[solar_power_installed_kwp]"
@@ -2991,7 +2991,7 @@
                       name="solar_potential_usage_last_change" />
                     <externalMetadataColumn
                       refId="Package\Load Data\ERCanton.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[renewable_heating_share]"
-                      dataType="r4"
+                      dataType="r8"
                       name="renewable_heating_share" />
                     <externalMetadataColumn
                       refId="Package\Load Data\ERCanton.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[renewable_heating_count]"
@@ -3007,7 +3007,7 @@
                       name="no_heating_count" />
                     <externalMetadataColumn
                       refId="Package\Load Data\ERCanton.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[renewable_heating_share_coverage]"
-                      dataType="r4"
+                      dataType="r8"
                       name="renewable_heating_share_coverage" />
                     <externalMetadataColumn
                       refId="Package\Load Data\ERCanton.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[renewable_heating_share_last_change]"
@@ -3015,15 +3015,15 @@
                       name="renewable_heating_share_last_change" />
                     <externalMetadataColumn
                       refId="Package\Load Data\ERCanton.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[elec_consumption_mwh_per_year_per_capita]"
-                      dataType="r4"
+                      dataType="r8"
                       name="elec_consumption_mwh_per_year_per_capita" />
                     <externalMetadataColumn
                       refId="Package\Load Data\ERCanton.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[elec_consumption_households_mwh_per_year_per_capita]"
-                      dataType="r4"
+                      dataType="r8"
                       name="elec_consumption_households_mwh_per_year_per_capita" />
                     <externalMetadataColumn
                       refId="Package\Load Data\ERCanton.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[elec_consumption_mwh_per_year]"
-                      dataType="i4"
+                      dataType="i8"
                       name="elec_consumption_mwh_per_year" />
                     <externalMetadataColumn
                       refId="Package\Load Data\ERCanton.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[elec_consumption_households_mwh_per_year]"
@@ -3039,11 +3039,11 @@
                       name="elec_consumption_date_until" />
                     <externalMetadataColumn
                       refId="Package\Load Data\ERCanton.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[renelec_production_mwh_per_year_per_capita]"
-                      dataType="r4"
+                      dataType="r8"
                       name="renelec_production_mwh_per_year_per_capita" />
                     <externalMetadataColumn
                       refId="Package\Load Data\ERCanton.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[renelec_production_mwh_per_year]"
-                      dataType="i4"
+                      dataType="i8"
                       name="renelec_production_mwh_per_year" />
                     <externalMetadataColumn
                       refId="Package\Load Data\ERCanton.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[renelec_production_water_mwh_per_year]"
@@ -3073,12 +3073,6 @@
                       refId="Package\Load Data\ERCanton.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[renelec_production_date_until]"
                       dataType="dbTimeStamp"
                       name="renelec_production_date_until" />
-                    <externalMetadataColumn
-                      refId="Package\Load Data\ERCanton.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[canton_name]"
-                      codePage="1252"
-                      dataType="str"
-                      length="120"
-                      name="canton_name" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -3456,7 +3450,7 @@
                       name="elec_consumption_households_mwh_per_year_per_capita" />
                     <externalMetadataColumn
                       refId="Package\Load Data\ERCountry.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[elec_consumption_mwh_per_year]"
-                      dataType="i4"
+                      dataType="i8"
                       name="elec_consumption_mwh_per_year" />
                     <externalMetadataColumn
                       refId="Package\Load Data\ERCountry.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[elec_consumption_households_mwh_per_year]"
@@ -3476,7 +3470,7 @@
                       name="renelec_production_mwh_per_year_per_capita" />
                     <externalMetadataColumn
                       refId="Package\Load Data\ERCountry.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[renelec_production_mwh_per_year]"
-                      dataType="i4"
+                      dataType="i8"
                       name="renelec_production_mwh_per_year" />
                     <externalMetadataColumn
                       refId="Package\Load Data\ERCountry.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[renelec_production_water_mwh_per_year]"
@@ -4908,270 +4902,6 @@
                 </output>
               </outputs>
             </component>
-            <component
-              refId="Package\Load Data\Suche"
-              componentClassID="Microsoft.Lookup"
-              contactInfo="Suche;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Alle Rechte vorbehalten; http://www.microsoft.com/sql/support;6"
-              description="Verknüpft zusätzliche Spalten mit dem Datenfluss, indem Werte in einer Tabelle gesucht werden. Verknüpfen Sie beispielsweise die Spalte &quot;employee id&quot; mit der Tabelle &quot;employees&quot;, um &quot;hire date&quot; und &quot;employee name&quot; zu erhalten. Diese Transformation wird empfohlen, wenn der Arbeitsspeicher die Nachschlagetabelle aufnehmen kann."
-              name="Suche"
-              usesDispositions="true"
-              version="6">
-              <properties>
-                <property
-                  dataType="System.String"
-                  description="Gibt die SQL-Anweisung an, die die Nachschlagetabelle generiert."
-                  expressionType="Notify"
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">/* nothing*/
-SELECT        'AG' AS Kuerzel, 'Aargau' AS Kantonsname
-UNION ALL
-SELECT        'AI' AS Expr1, 'Appenzell Innerrhoden' AS Expr2
-UNION ALL
-SELECT        'AR' AS Expr1, 'Appenzell Ausserrhoden' AS Expr2
-UNION ALL
-SELECT        'BE' AS Expr1, 'Bern' AS Expr2
-UNION ALL
-SELECT        'BL' AS Expr1, 'Basel-Landschaft' AS Expr2
-UNION ALL
-SELECT        'BS' AS Expr1, 'Basel-Stadt' AS Expr2
-UNION ALL
-SELECT        'FR' AS Expr1, 'Freiburg' AS Expr2
-UNION ALL
-SELECT        'GE' AS Expr1, 'Genf' AS Expr2
-UNION ALL
-SELECT        'GL' AS Expr1, 'Glarus' AS Expr2
-UNION ALL
-SELECT        'GR' AS Expr1, 'Graubünden' AS Expr2
-UNION ALL
-SELECT        'JU' AS Expr1, 'Jura' AS Expr2
-UNION ALL
-SELECT        'LU' AS Expr1, 'Luzern' AS Expr2
-UNION ALL
-SELECT        'NE' AS Expr1, 'Neuenburg' AS Expr2
-UNION ALL
-SELECT        'NW' AS Expr1, 'Nidwalden' AS Expr2
-UNION ALL
-SELECT        'OW' AS Expr1, 'Obwalden' AS Expr2
-UNION ALL
-SELECT        'SG' AS Expr1, 'St. Gallen' AS Expr2
-UNION ALL
-SELECT        'SH' AS Expr1, 'Schaffhausen' AS Expr2
-UNION ALL
-SELECT        'SO' AS Expr1, 'Solothurn' AS Expr2
-UNION ALL
-SELECT        'SZ' AS Expr1, 'Schwyz' AS Expr2
-UNION ALL
-SELECT        'TG' AS Expr1, 'Thurgau' AS Expr2
-UNION ALL
-SELECT        'TI' AS Expr1, 'Tessin' AS Expr2
-UNION ALL
-SELECT        'UR' AS Expr1, 'Uri' AS Expr2
-UNION ALL
-SELECT        'VD' AS Expr1, 'Waadt' AS Expr2
-UNION ALL
-SELECT        'VS' AS Expr1, 'Wallis' AS Expr2
-UNION ALL
-SELECT        'ZG' AS Expr1, 'Zug' AS Expr2
-UNION ALL
-SELECT        'ZH' AS Expr1, 'Zürich' AS Expr2</property>
-                <property
-                  dataType="System.String"
-                  description="Gibt eine SQL-Anweisung an, die Parameter zum Generieren der Nachschlagetabelle verwendet."
-                  expressionType="Notify"
-                  name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (/* nothing*/
-SELECT        'AG' AS Kuerzel, 'Aargau' AS Kantonsname
-UNION ALL
-SELECT        'AI' AS Expr1, 'Appenzell Innerrhoden' AS Expr2
-UNION ALL
-SELECT        'AR' AS Expr1, 'Appenzell Ausserrhoden' AS Expr2
-UNION ALL
-SELECT        'BE' AS Expr1, 'Bern' AS Expr2
-UNION ALL
-SELECT        'BL' AS Expr1, 'Basel-Landschaft' AS Expr2
-UNION ALL
-SELECT        'BS' AS Expr1, 'Basel-Stadt' AS Expr2
-UNION ALL
-SELECT        'FR' AS Expr1, 'Freiburg' AS Expr2
-UNION ALL
-SELECT        'GE' AS Expr1, 'Genf' AS Expr2
-UNION ALL
-SELECT        'GL' AS Expr1, 'Glarus' AS Expr2
-UNION ALL
-SELECT        'GR' AS Expr1, 'Graubünden' AS Expr2
-UNION ALL
-SELECT        'JU' AS Expr1, 'Jura' AS Expr2
-UNION ALL
-SELECT        'LU' AS Expr1, 'Luzern' AS Expr2
-UNION ALL
-SELECT        'NE' AS Expr1, 'Neuenburg' AS Expr2
-UNION ALL
-SELECT        'NW' AS Expr1, 'Nidwalden' AS Expr2
-UNION ALL
-SELECT        'OW' AS Expr1, 'Obwalden' AS Expr2
-UNION ALL
-SELECT        'SG' AS Expr1, 'St. Gallen' AS Expr2
-UNION ALL
-SELECT        'SH' AS Expr1, 'Schaffhausen' AS Expr2
-UNION ALL
-SELECT        'SO' AS Expr1, 'Solothurn' AS Expr2
-UNION ALL
-SELECT        'SZ' AS Expr1, 'Schwyz' AS Expr2
-UNION ALL
-SELECT        'TG' AS Expr1, 'Thurgau' AS Expr2
-UNION ALL
-SELECT        'TI' AS Expr1, 'Tessin' AS Expr2
-UNION ALL
-SELECT        'UR' AS Expr1, 'Uri' AS Expr2
-UNION ALL
-SELECT        'VD' AS Expr1, 'Waadt' AS Expr2
-UNION ALL
-SELECT        'VS' AS Expr1, 'Wallis' AS Expr2
-UNION ALL
-SELECT        'ZG' AS Expr1, 'Zug' AS Expr2
-UNION ALL
-SELECT        'ZH' AS Expr1, 'Zürich' AS Expr2) [refTable]
-where [refTable].[Kuerzel] = ?</property>
-                <property
-                  dataType="System.Int32"
-                  description="Gibt den Typ der Verbindung an, der zum Zugreifen auf das Verweisdataset verwendet wird."
-                  name="ConnectionType"
-                  typeConverter="LookupConnectionType">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Gibt den Cachetyp der Nachschlagetabelle an."
-                  name="CacheType"
-                  typeConverter="CacheType">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Gibt an, wie die Suchtransformation Zeilen ohne übereinstimmende Einträge im Verweisdataset behandelt."
-                  name="NoMatchBehavior"
-                  typeConverter="LookupNoMatchBehavior">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Gibt den Prozentwert des Caches an, der für Zeilen ohne übereinstimmende Einträge im Verweisdataset zugewiesen ist."
-                  name="NoMatchCachePercentage">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Maximale Speicherauslastung für den Verweiscache auf einer 32-Bit-Plattform."
-                  name="MaxMemoryUsage">25</property>
-                <property
-                  dataType="System.Int64"
-                  description="Maximale Speicherauslastung für den Verweiscache auf einer 64-Bit-Plattform."
-                  name="MaxMemoryUsage64">25</property>
-                <property
-                  dataType="System.String"
-                  description="Zeigt an, ob auf Metadaten in einem XML-Format verwiesen werden soll."
-                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="Kuerzel" dataType="DT_STR" length="2" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="Kantonsname" dataType="DT_STR" length="22" precision="0" scale="0" codePage="1252"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
-                <property
-                  containsID="true"
-                  dataType="System.String"
-                  description="Gibt die Liste der Herkunftsbezeichner an, die den von der SQL-Anweisung in der SQLCommand-Eigenschaft verwendeten Parametern zugeordnet sind. Einträge in der Liste sind durch Semikolons getrennt."
-                  name="ParameterMap">#{Package\Load Data\Canton.Outputs[Ausgabe der Flatfilequelle].Columns[canton]};</property>
-                <property
-                  dataType="System.Int32"
-                  description="Gibt die zu verwendende Spaltencodepage an, wenn keine Codepageinformationen von der Datenquelle verfügbar sind."
-                  name="DefaultCodePage">1252</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Bestimmt, ob doppelte Schlüssel in den Verweisdaten bei Verwendung des Vollcachemodus als Fehler behandelt werden sollen."
-                  name="TreatDuplicateKeysAsError">false</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Load Data\Suche.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[WIV11-VMWP1\DATAWAREHOUSE.ERStagindDB]"
-                  connectionManagerRefId="Package.ConnectionManagers[WIV11-VMWP1\DATAWAREHOUSE.ERStagindDB]"
-                  description="Verbindungs-Manager für den Zugriff auf Suchdaten."
-                  name="OleDbConnection" />
-              </connections>
-              <inputs>
-                <input
-                  refId="Package\Load Data\Suche.Inputs[Eingabe der Suche]"
-                  name="Eingabe der Suche">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Load Data\Suche.Inputs[Eingabe der Suche].Columns[canton]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="2"
-                      cachedName="canton"
-                      lineageId="Package\Load Data\Canton.Outputs[Ausgabe der Flatfilequelle].Columns[canton]">
-                      <properties>
-                        <property
-                          dataType="System.String"
-                          description="Gibt die Spalte in der Verweistabelle an, mit der eine Spalte verknüpft wird."
-                          name="JoinToReferenceColumn">Kuerzel</property>
-                        <property
-                          dataType="System.Null"
-                          description="Gibt die Spalte in der Verweistabelle an, aus der eine Spalte kopiert ist."
-                          name="CopyFromReferenceColumn" />
-                      </properties>
-                    </inputColumn>
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Load Data\Suche.Outputs[Ausgabe der Suchübereinstimmungen]"
-                  errorOrTruncationOperation="Suche"
-                  errorRowDisposition="FailComponent"
-                  exclusionGroup="1"
-                  name="Ausgabe der Suchübereinstimmungen"
-                  synchronousInputId="Package\Load Data\Suche.Inputs[Eingabe der Suche]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Load Data\Suche.Outputs[Ausgabe der Suchübereinstimmungen].Columns[canton_name]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Spalte kopieren"
-                      length="22"
-                      lineageId="Package\Load Data\Suche.Outputs[Ausgabe der Suchübereinstimmungen].Columns[canton_name]"
-                      name="canton_name"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.String"
-                          description="Gibt die Spalte in der Verweistabelle an, aus der eine Spalte kopiert ist."
-                          name="CopyFromReferenceColumn">Kantonsname</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Load Data\Suche.Outputs[Suchausgabe nicht übereinstimmender Einträge]"
-                  description="Die Suchausgabe, die Zeilen ohne übereinstimmende Einträge im Verweisdataset behandelt. Verwenden Sie diese Ausgabe, wenn die NoMatchBehavior-Eigenschaft auf &quot;Zeilen ohne übereinstimmende Einträge an die Ausgabe nicht übereinstimmender Einträge senden&quot; festgelegt ist."
-                  exclusionGroup="1"
-                  name="Suchausgabe nicht übereinstimmender Einträge"
-                  synchronousInputId="Package\Load Data\Suche.Inputs[Eingabe der Suche]">
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Load Data\Suche.Outputs[Fehlerausgabe der Suche]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="Fehlerausgabe der Suche"
-                  synchronousInputId="Package\Load Data\Suche.Inputs[Eingabe der Suche]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Load Data\Suche.Outputs[Fehlerausgabe der Suche].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Load Data\Suche.Outputs[Fehlerausgabe der Suche].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Load Data\Suche.Outputs[Fehlerausgabe der Suche].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Load Data\Suche.Outputs[Fehlerausgabe der Suche].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
           </components>
           <paths>
             <path
@@ -5186,14 +4916,9 @@ where [refTable].[Kuerzel] = ?</property>
               startId="Package\Load Data\Municipality.Outputs[Ausgabe der Flatfilequelle]" />
             <path
               refId="Package\Load Data.Paths[Ausgabe der Flatfilequelle2]"
-              endId="Package\Load Data\Suche.Inputs[Eingabe der Suche]"
+              endId="Package\Load Data\ERCanton.Inputs[Eingabe des OLE DB-Ziels]"
               name="Ausgabe der Flatfilequelle"
               startId="Package\Load Data\Canton.Outputs[Ausgabe der Flatfilequelle]" />
-            <path
-              refId="Package\Load Data.Paths[Ausgabe der Suchübereinstimmungen]"
-              endId="Package\Load Data\ERCanton.Inputs[Eingabe des OLE DB-Ziels]"
-              name="Ausgabe der Suchübereinstimmungen"
-              startId="Package\Load Data\Suche.Outputs[Ausgabe der Suchübereinstimmungen]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -5216,35 +4941,14 @@ where [refTable].[Kuerzel] = ?</property>
           Language="CSharp"
           ReadOnlyVariables="User::CSVFileCantonPath,User::CSVFileMunicipalityPath,User::CSVFileNationalPath,User::ZipFileExtractPath,User::ZipFilePath,User::ZipFileUrl">
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_79d0ae8ec3ae4840ae56561a0da113e5")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_79d0ae8ec3ae4840ae56561a0da113e5")]
-[assembly: AssemblyCopyright("Copyright @  2024")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -5365,94 +5069,34 @@ using System.Runtime.CompilerServices;
   </resheader>
 </root>]]></ProjectItem>
           <ProjectItem
-            Name="ST_79d0ae8ec3ae4840ae56561a0da113e5.csproj"
-            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{690766FF-2991-49FF-B646-E4E515D04EAF}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ST_79d0ae8ec3ae4840ae56561a0da113e5</RootNamespace>
-    <AssemblyName>ST_79d0ae8ec3ae4840ae56561a0da113e5</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
-    <TargetFrameworkProfile>
-    </TargetFrameworkProfile>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>.\bin\Debug\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <DebugSymbols>false</DebugSymbols>
-    <Optimize>true</Optimize>
-    <OutputPath>.\bin\Release\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.IO.Compression" />
-    <Reference Include="System.IO.Compression.FileSystem" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
-    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-  </ItemGroup>
-  <ItemGroup>
-    <AppDesigner Include="Properties\" />
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptMain.cs">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <!-- Include the build rules for a C# project.-->
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ProjectExtensions>
-    <VisualStudio>
-      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
-        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
-        <Host Name="ScriptTask" />
-        <ProjectClient>
-          <HostIdentifier>SSIS_ST160</HostIdentifier>
-        </ProjectClient>
-      </FlavorProperties>
-    </VisualStudio>
-  </ProjectExtensions>
-</Project>]]></ProjectItem>
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_79d0ae8ec3ae4840ae56561a0da113e5.Properties.Settings.get_Default():ST_79d0ae8ec3ae4840ae56561a0da113e5.Properties.Sett" +
+    "ings")]
+
+namespace ST_79d0ae8ec3ae4840ae56561a0da113e5.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
           <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -5643,43 +5287,124 @@ namespace ST_79d0ae8ec3ae4840ae56561a0da113e5
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
 //
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_79d0ae8ec3ae4840ae56561a0da113e5")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_79d0ae8ec3ae4840ae56561a0da113e5")]
+[assembly: AssemblyCopyright("Copyright @  2024")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
 
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_79d0ae8ec3ae4840ae56561a0da113e5.Properties.Settings.get_Default():ST_79d0ae8ec3ae4840ae56561a0da113e5.Properties.Sett" +
-    "ings")]
-
-namespace ST_79d0ae8ec3ae4840ae56561a0da113e5.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="ST_79d0ae8ec3ae4840ae56561a0da113e5.csproj"
+            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{690766FF-2991-49FF-B646-E4E515D04EAF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ST_79d0ae8ec3ae4840ae56561a0da113e5</RootNamespace>
+    <AssemblyName>ST_79d0ae8ec3ae4840ae56561a0da113e5</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ScriptMain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <!-- Include the build rules for a C# project.-->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
+        <Host Name="ScriptTask" />
+        <ProjectClient>
+          <HostIdentifier>SSIS_ST160</HostIdentifier>
+        </ProjectClient>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -5999,7 +5724,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
     design-time-name="Package\Load Data">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="134,42"
           Id="Package\Load Data\Municipality"
@@ -6009,13 +5734,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
           Id="Package\Load Data\ERMunicipality"
           TopLeft="275,509" />
         <NodeLayout
-          Size="107,42"
-          Id="Package\Load Data\Suche"
-          TopLeft="308,443" />
-        <NodeLayout
           Size="125,42"
           Id="Package\Load Data\ERCanton"
-          TopLeft="621,443" />
+          TopLeft="286,441" />
         <NodeLayout
           Size="116,42"
           Id="Package\Load Data\Country"
@@ -6029,43 +5750,19 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
           Id="Package\Load Data\ERCountry"
           TopLeft="272,366" />
         <EdgeLayout
-          Id="Package\Load Data.Paths[Ausgabe der Suchübereinstimmungen]"
-          TopLeft="415,464">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="206,0"
-              Start="0,0"
-              End="198.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="198.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="14.98,5,168.54,11.6630859375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\Load Data.Paths[Ausgabe der Flatfilequelle2]"
-          TopLeft="189,464">
+          TopLeft="189,463">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="119,0"
+              EndConnector="97,0"
               Start="0,0"
-              End="111.5,0">
+              End="89.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="111.5,0" />
+                    End="89.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6131,29 +5828,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load Data\Suche">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string"></Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
