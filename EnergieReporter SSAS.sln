@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "EnergieReporter Integration Service", "EnergieReporter Integration Service\EnergieReporter Integration Service.dtproj", "{536B310C-015D-4684-B481-F0F5472E115E}"
 EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "EnergieReporter Multidimensional", "EnergieReporter Multidimensional\EnergieReporter Multidimensional.dwproj", "{7F177C81-9EC4-4BBD-A967-D2701A394414}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -12,6 +14,9 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{536B310C-015D-4684-B481-F0F5472E115E}.Development|Default.ActiveCfg = Development
 		{536B310C-015D-4684-B481-F0F5472E115E}.Development|Default.Build.0 = Development
+		{7F177C81-9EC4-4BBD-A967-D2701A394414}.Development|Default.ActiveCfg = Development
+		{7F177C81-9EC4-4BBD-A967-D2701A394414}.Development|Default.Build.0 = Development
+		{7F177C81-9EC4-4BBD-A967-D2701A394414}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

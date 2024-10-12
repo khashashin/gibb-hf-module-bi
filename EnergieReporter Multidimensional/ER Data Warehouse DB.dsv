@@ -1,0 +1,364 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="60d5e684-0a2f-4f5a-84ed-d90ab8bd89d9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>ER Data Warehouse DB</ID>
+  <Name>ER Data Warehouse DB</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="48" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-17577" scrolltop="-4056" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="54398" y="24659" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Gemeinde" left="20" top="5627" logicalid="38" controlid="20" masterid="0" hint1="0" hint2="0" width="3175" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000670c00004d0c0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Dim_Gemeinde" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Kanton" left="7984" top="0" logicalid="39" controlid="21" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000fe080000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Dim_Kanton" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Land" left="15774" top="6051" logicalid="40" controlid="22" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000fe080000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Dim_Land" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Zeit" left="7984" top="12102" logicalid="41" controlid="23" masterid="0" hint1="0" hint2="0" width="3000" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00009b0f0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Dim_Zeit" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fact_EnergyData" left="5595" top="4702" logicalid="42" controlid="24" masterid="0" hint1="0" hint2="0" width="7779" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000631e000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Fact_EnergyData" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="13074" top="6803" logicalid="43" controlid="25" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK__Fact_Ener__LandI__440B1D61]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="22" destid="24" sourceattachpoint="12" destattachpoint="35" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="15774" y="7202" />
+                    <point x="13374" y="7202" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="9085" top="9402" logicalid="44" controlid="26" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK__Fact_Ener__DateK__44FF419A]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="23" destid="24" sourceattachpoint="4" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="9484" y="12102" />
+                    <point x="9484" y="9702" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2895" top="6802" logicalid="45" controlid="27" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK__Fact_Ener__Gemei__4222D4EF]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="20" destid="24" sourceattachpoint="15" destattachpoint="34" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="3195" y="7201" />
+                    <point x="4395" y="7201" />
+                    <point x="4395" y="7202" />
+                    <point x="5595" y="7202" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="9085" top="1803" logicalid="46" controlid="28" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK__Fact_Ener__Kanto__4316F928]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="21" destid="24" sourceattachpoint="5" destattachpoint="12" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="9484" y="2302" />
+                    <point x="9484" y="4702" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-17577</DiagramViewPortLeft>
+            <DiagramViewPortTop>-4056</DiagramViewPortTop>
+            <DiagramBoundingLeft>20</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>ER Data Warehouse DB</DataSourceID>
+  <Schema>
+    <xs:schema id="ER_x0020_Data_x0020_Warehouse_x0020_DB" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="ER_x0020_Data_x0020_Warehouse_x0020_DB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="89ff5867-580b-4526-9aff-de77bebfd602">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Dim_Gemeinde" msprop:design-time-name="cd2adfe9-4602-46f0-9034-d074a93ea4ed" msprop:FriendlyName="Dim_Gemeinde" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="Dim_Gemeinde">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="GemeindeID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="GemeindeID" msprop:DbColumnName="GemeindeID" msprop:design-time-name="20f0fa85-8708-415f-9154-5fcab76aa169" type="xs:int" />
+                  <xs:element name="BfsNummer" msprop:FriendlyName="BfsNummer" msprop:DbColumnName="BfsNummer" msprop:design-time-name="ac0751cd-40a6-4965-a0ed-63cfe61bccb3" type="xs:int" />
+                  <xs:element name="Gemeindename" msprop:FriendlyName="Gemeindename" msprop:DbColumnName="Gemeindename" msprop:design-time-name="c41118ca-2bac-47b6-9919-485fc923efb8">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Kanton" msprop:FriendlyName="Kanton" msprop:DbColumnName="Kanton" msprop:design-time-name="d1bf947a-cbb3-4336-801c-04e73be3e9a0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Gemeindetyp" msprop:FriendlyName="Gemeindetyp" msprop:DbColumnName="Gemeindetyp" msprop:design-time-name="62988307-2954-4bef-b751-549b081660e6" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Kanton" msprop:design-time-name="13e44b6a-10ef-4318-926d-f883d6da55ee" msprop:FriendlyName="Dim_Kanton" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="Dim_Kanton">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="KantonID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="KantonID" msprop:DbColumnName="KantonID" msprop:design-time-name="ca0d5ffa-f210-46e2-bf53-9db46ae4dfd9" type="xs:int" />
+                  <xs:element name="Kanton" msprop:FriendlyName="Kanton" msprop:DbColumnName="Kanton" msprop:design-time-name="4fa3bc4d-f80c-4774-9dd6-c91ac7564f04">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="KantonName" msprop:FriendlyName="KantonName" msprop:DbColumnName="KantonName" msprop:design-time-name="9d2c8abd-f73d-48a2-86dd-7775b50e27cd">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Land" msprop:design-time-name="ab32bf21-6f55-47fe-bb83-5001d78c14a4" msprop:FriendlyName="Dim_Land" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="Dim_Land">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="LandID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="LandID" msprop:DbColumnName="LandID" msprop:design-time-name="2332e2e5-367e-4a55-a655-be70c5dbcc3c" type="xs:int" />
+                  <xs:element name="Land" msprop:FriendlyName="Land" msprop:DbColumnName="Land" msprop:design-time-name="94d22f2b-373c-4fce-a854-0071a3490433">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ISOCode" msprop:FriendlyName="ISOCode" msprop:DbColumnName="ISOCode" msprop:design-time-name="4904ed09-dce5-480a-ba1c-78e0e29bc046">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Zeit" msprop:design-time-name="7b8c5e59-ce00-4b14-8ecc-9e4e0c026348" msprop:FriendlyName="Dim_Zeit" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="Dim_Zeit">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DateKey" msprop:FriendlyName="DateKey" msprop:DbColumnName="DateKey" msprop:design-time-name="4ddc67fc-54e8-481e-b56f-4626ba447b01" type="xs:int" />
+                  <xs:element name="Datum" msprop:FriendlyName="Datum" msprop:DbColumnName="Datum" msprop:design-time-name="ee8742ce-9ee4-4cc1-b5e6-234bff4a675f" type="xs:dateTime" />
+                  <xs:element name="Tag" msprop:FriendlyName="Tag" msprop:DbColumnName="Tag" msprop:design-time-name="57203514-7e17-4628-9757-efd3d6301e9d" type="xs:int" />
+                  <xs:element name="Monat" msprop:FriendlyName="Monat" msprop:DbColumnName="Monat" msprop:design-time-name="efba92bb-90e1-442e-bb32-a6aa4d72eb23" type="xs:int" />
+                  <xs:element name="Monatsname" msprop:FriendlyName="Monatsname" msprop:DbColumnName="Monatsname" msprop:design-time-name="96f071f6-0d0f-4a52-a390-7aae7195862a">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Quartal" msprop:FriendlyName="Quartal" msprop:DbColumnName="Quartal" msprop:design-time-name="ae4d7d49-5c49-45ed-996c-7b32c8758fbb">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Jahr" msprop:FriendlyName="Jahr" msprop:DbColumnName="Jahr" msprop:design-time-name="e8c79e02-c71e-466b-a6a7-5dd4a4bf5cc7" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Fact_EnergyData" msprop:design-time-name="7c2500e1-95d2-4b63-95ad-b41943dc03d2" msprop:FriendlyName="Fact_EnergyData" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="Fact_EnergyData">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="FactID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="FactID" msprop:DbColumnName="FactID" msprop:design-time-name="510f0303-0ec6-4388-b952-6d6ae25d87f9" type="xs:int" />
+                  <xs:element name="GemeindeID" msprop:FriendlyName="GemeindeID" msprop:DbColumnName="GemeindeID" msprop:design-time-name="ec7b1a44-5d17-48eb-a943-b123086402f4" type="xs:int" minOccurs="0" />
+                  <xs:element name="KantonID" msprop:FriendlyName="KantonID" msprop:DbColumnName="KantonID" msprop:design-time-name="805cebc9-24d3-4856-a786-bba862ea19be" type="xs:int" minOccurs="0" />
+                  <xs:element name="LandID" msprop:FriendlyName="LandID" msprop:DbColumnName="LandID" msprop:design-time-name="d284443a-dcd4-474d-8a91-8e45ca5e5d2f" type="xs:int" minOccurs="0" />
+                  <xs:element name="DateKey" msprop:FriendlyName="DateKey" msprop:DbColumnName="DateKey" msprop:design-time-name="38547ed1-26b3-4857-8906-62de9a4c5873" type="xs:int" />
+                  <xs:element name="ElectricCarShare" msprop:FriendlyName="ElectricCarShare" msprop:DbColumnName="ElectricCarShare" msprop:design-time-name="7f7816a3-6cb5-403f-9963-f36fa62ba82f" type="xs:double" minOccurs="0" />
+                  <xs:element name="ElectricCarCount" msprop:FriendlyName="ElectricCarCount" msprop:DbColumnName="ElectricCarCount" msprop:design-time-name="e9c80877-2bf6-4db4-9c30-6c571b16c186" type="xs:int" minOccurs="0" />
+                  <xs:element name="ElectricCarShareLastChange" msprop:FriendlyName="ElectricCarShareLastChange" msprop:DbColumnName="ElectricCarShareLastChange" msprop:design-time-name="93a85d3b-5212-4091-a7cc-21662e3e4b19" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="ElectricCarChargingSpotCount" msprop:FriendlyName="ElectricCarChargingSpotCount" msprop:DbColumnName="ElectricCarChargingSpotCount" msprop:design-time-name="17cdf483-5a7c-4f15-839c-59a73f7adb7e" type="xs:int" minOccurs="0" />
+                  <xs:element name="ElectricCarsPerChargingSpot" msprop:FriendlyName="ElectricCarsPerChargingSpot" msprop:DbColumnName="ElectricCarsPerChargingSpot" msprop:design-time-name="43793447-5285-48b5-9eff-d319e925b14c" type="xs:double" minOccurs="0" />
+                  <xs:element name="ElectricCarChargingSpotLastChange" msprop:FriendlyName="ElectricCarChargingSpotLastChange" msprop:DbColumnName="ElectricCarChargingSpotLastChange" msprop:design-time-name="586f3333-0763-43b2-9a0f-7888ae66a5f5" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="SolarPotentialUsage" msprop:FriendlyName="SolarPotentialUsage" msprop:DbColumnName="SolarPotentialUsage" msprop:design-time-name="29a880d8-952e-4a64-b29c-5c2def23b880" type="xs:double" minOccurs="0" />
+                  <xs:element name="SolarPowerInstalledKWp" msprop:FriendlyName="SolarPowerInstalledKWp" msprop:DbColumnName="SolarPowerInstalledKWp" msprop:design-time-name="235478ef-2c7a-4a8d-951e-fa817bcc7134" type="xs:int" minOccurs="0" />
+                  <xs:element name="SolarPotentialUsageLastChange" msprop:FriendlyName="SolarPotentialUsageLastChange" msprop:DbColumnName="SolarPotentialUsageLastChange" msprop:design-time-name="2d9a88b5-827e-4df9-8e7b-f0149fb66e94" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="RenewableHeatingShare" msprop:FriendlyName="RenewableHeatingShare" msprop:DbColumnName="RenewableHeatingShare" msprop:design-time-name="10c8e108-bd5f-4b54-a7cd-0d7984e56e8e" type="xs:double" minOccurs="0" />
+                  <xs:element name="RenewableHeatingCount" msprop:FriendlyName="RenewableHeatingCount" msprop:DbColumnName="RenewableHeatingCount" msprop:design-time-name="1cce5f7a-27f7-43a4-b553-07246c4e6de6" type="xs:int" minOccurs="0" />
+                  <xs:element name="NonRenewableHeatingCount" msprop:FriendlyName="NonRenewableHeatingCount" msprop:DbColumnName="NonRenewableHeatingCount" msprop:design-time-name="f2ad8a74-390d-43d7-ba41-d6891a446d22" type="xs:int" minOccurs="0" />
+                  <xs:element name="NoHeatingCount" msprop:FriendlyName="NoHeatingCount" msprop:DbColumnName="NoHeatingCount" msprop:design-time-name="40fdba14-8206-4906-a7bf-8b4ba44a541a" type="xs:int" minOccurs="0" />
+                  <xs:element name="RenewableHeatingShareCoverage" msprop:FriendlyName="RenewableHeatingShareCoverage" msprop:DbColumnName="RenewableHeatingShareCoverage" msprop:design-time-name="f4c1ea32-fcae-49e1-8053-d4e8ca8342a0" type="xs:double" minOccurs="0" />
+                  <xs:element name="RenewableHeatingShareLastChange" msprop:FriendlyName="RenewableHeatingShareLastChange" msprop:DbColumnName="RenewableHeatingShareLastChange" msprop:design-time-name="9e8d95b6-d613-4c5a-b9a7-aef53e56dd60" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="ElecConsumptionMWhPerYearPerCapita" msprop:FriendlyName="ElecConsumptionMWhPerYearPerCapita" msprop:DbColumnName="ElecConsumptionMWhPerYearPerCapita" msprop:design-time-name="9f81dc2f-1c5e-4791-9e03-5e6247a0d996" type="xs:double" minOccurs="0" />
+                  <xs:element name="ElecConsumptionHouseholdsMWhPerYearPerCapita" msprop:FriendlyName="ElecConsumptionHouseholdsMWhPerYearPerCapita" msprop:DbColumnName="ElecConsumptionHouseholdsMWhPerYearPerCapita" msprop:design-time-name="7be6e34c-8cae-4dc3-a048-622adc8acb7f" type="xs:double" minOccurs="0" />
+                  <xs:element name="ElecConsumptionMWhPerYear" msprop:FriendlyName="ElecConsumptionMWhPerYear" msprop:DbColumnName="ElecConsumptionMWhPerYear" msprop:design-time-name="88b288e8-12c6-4fd2-afb9-066f90eea82f" type="xs:long" minOccurs="0" />
+                  <xs:element name="ElecConsumptionHouseholdsMWhPerYear" msprop:FriendlyName="ElecConsumptionHouseholdsMWhPerYear" msprop:DbColumnName="ElecConsumptionHouseholdsMWhPerYear" msprop:design-time-name="71732627-623d-45a8-8c71-3036925b7cf6" type="xs:long" minOccurs="0" />
+                  <xs:element name="ElecConsumptionDateFrom" msprop:FriendlyName="ElecConsumptionDateFrom" msprop:DbColumnName="ElecConsumptionDateFrom" msprop:design-time-name="f602490f-759f-43b2-8004-ff033b940c11" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="ElecConsumptionDateUntil" msprop:FriendlyName="ElecConsumptionDateUntil" msprop:DbColumnName="ElecConsumptionDateUntil" msprop:design-time-name="96e69aca-4a75-4bdc-b0b2-026ba3ca86bf" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="RenelecProductionMWhPerYearPerCapita" msprop:FriendlyName="RenelecProductionMWhPerYearPerCapita" msprop:DbColumnName="RenelecProductionMWhPerYearPerCapita" msprop:design-time-name="19efdfc5-7d7a-47df-9e49-692d4c0a939c" type="xs:double" minOccurs="0" />
+                  <xs:element name="RenelecProductionMWhPerYear" msprop:FriendlyName="RenelecProductionMWhPerYear" msprop:DbColumnName="RenelecProductionMWhPerYear" msprop:design-time-name="0a043369-8868-443f-8a2f-c85b8c75a6b2" type="xs:long" minOccurs="0" />
+                  <xs:element name="RenelecProductionWaterMWhPerYear" msprop:FriendlyName="RenelecProductionWaterMWhPerYear" msprop:DbColumnName="RenelecProductionWaterMWhPerYear" msprop:design-time-name="1a94911a-7801-44c4-9dc6-326f1b2d531b" type="xs:long" minOccurs="0" />
+                  <xs:element name="RenelecProductionSolarMWhPerYear" msprop:FriendlyName="RenelecProductionSolarMWhPerYear" msprop:DbColumnName="RenelecProductionSolarMWhPerYear" msprop:design-time-name="23aa8d18-4dc9-4419-89ef-5a8704ed816c" type="xs:long" minOccurs="0" />
+                  <xs:element name="RenelecProductionWindMWhPerYear" msprop:FriendlyName="RenelecProductionWindMWhPerYear" msprop:DbColumnName="RenelecProductionWindMWhPerYear" msprop:design-time-name="f2635311-599d-4821-9d87-ecb9a36eddc5" type="xs:long" minOccurs="0" />
+                  <xs:element name="RenelecProductionBiomassMWhPerYear" msprop:FriendlyName="RenelecProductionBiomassMWhPerYear" msprop:DbColumnName="RenelecProductionBiomassMWhPerYear" msprop:design-time-name="4d7c2788-8e2f-4df5-8efd-a9e981f5ee1a" type="xs:long" minOccurs="0" />
+                  <xs:element name="RenelecProductionWasteMWhPerYear" msprop:FriendlyName="RenelecProductionWasteMWhPerYear" msprop:DbColumnName="RenelecProductionWasteMWhPerYear" msprop:design-time-name="7c06f9d5-a742-40c5-9fa2-3cb2e29b2a21" type="xs:long" minOccurs="0" />
+                  <xs:element name="RenelecProductionDateFrom" msprop:FriendlyName="RenelecProductionDateFrom" msprop:DbColumnName="RenelecProductionDateFrom" msprop:design-time-name="1fb52c01-88cf-4657-a351-70710ccded08" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="RenelecProductionDateUntil" msprop:FriendlyName="RenelecProductionDateUntil" msprop:DbColumnName="RenelecProductionDateUntil" msprop:design-time-name="6d2b9935-3298-4331-a6ff-f474a936f9ce" type="xs:dateTime" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Gemeinde" />
+          <xs:field xpath="GemeindeID" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Kanton_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Kanton" />
+          <xs:field xpath="KantonID" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Land_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Land" />
+          <xs:field xpath="LandID" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Zeit_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Zeit" />
+          <xs:field xpath="DateKey" />
+        </xs:unique>
+        <xs:unique name="dbo_Fact_EnergyData_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Fact_EnergyData" />
+          <xs:field xpath="FactID" />
+        </xs:unique>
+        <xs:keyref name="FK__Fact_Ener__Kanto__4316F928" refer="dbo_Dim_Kanton_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_EnergyData" />
+          <xs:field xpath="KantonID" />
+        </xs:keyref>
+        <xs:keyref name="FK__Fact_Ener__Gemei__4222D4EF" refer="Constraint1">
+          <xs:selector xpath=".//dbo_Fact_EnergyData" />
+          <xs:field xpath="GemeindeID" />
+        </xs:keyref>
+        <xs:keyref name="FK__Fact_Ener__DateK__44FF419A" refer="dbo_Dim_Zeit_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_EnergyData" />
+          <xs:field xpath="DateKey" />
+        </xs:keyref>
+        <xs:keyref name="FK__Fact_Ener__LandI__440B1D61" refer="dbo_Dim_Land_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_EnergyData" />
+          <xs:field xpath="LandID" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <ER_x0020_Data_x0020_Warehouse_x0020_DB xmlns="" />
+  </Schema>
+</DataSourceView>
