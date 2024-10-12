@@ -1,4 +1,4 @@
-USE ERStagindDB;
+USE ERStagingDB;
 GO
 
 IF OBJECT_ID('dbo.ERCountry', 'U') IS NOT NULL
@@ -82,8 +82,8 @@ DROP TABLE dbo.ERMunicipality;
 
 CREATE TABLE ERMunicipality (
     bfs_nr smallint,
-    municipality varchar(120),
-    canton varchar(2),
+    municipality nvarchar(120),
+    canton nvarchar(2),
     bfs_municipality_type_2012_25 smallint,
     energyreporter_date datetime,
     electric_car_share float,

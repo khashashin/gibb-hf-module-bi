@@ -12,8 +12,8 @@
   DTS:LocaleID="1031"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="117"
-  DTS:VersionGUID="{6A7CEC8C-B831-4882-871C-D30EBAC2CC14}">
+  DTS:VersionBuild="147"
+  DTS:VersionGUID="{55660A38-DE6E-4B32-8654-773EF98696A5}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -577,14 +577,44 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[CreateStagindTables.sql]"
+      DTS:refId="Package.ConnectionManagers[CreateDataWarehouseDb.sql]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{44448DCC-75C3-458F-9102-5E414F744C34}"
+      DTS:ObjectName="CreateDataWarehouseDb.sql">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Users\vmadmin\source\repos\EnergieReporter Integration Service\SqlScripts\CreateDataWarehouseDb.sql" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[CreateDimensionTables.sql]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{E15E1BB4-9717-491E-B598-BEADE886EE13}"
+      DTS:ObjectName="CreateDimensionTables.sql">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Users\vmadmin\source\repos\EnergieReporter Integration Service\SqlScripts\CreateDimensionTables.sql" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[CreateFactTable.sql]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{6CFF1624-EFAE-4A85-9072-F865C97DACE0}"
+      DTS:ObjectName="CreateFactTable.sql">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Users\vmadmin\source\repos\EnergieReporter Integration Service\SqlScripts\CreateFactTable.sql" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[CreateStagingTables.sql]"
       DTS:CreationName="FILE"
       DTS:DelayValidation="True"
       DTS:DTSID="{345A53AC-FAD0-4561-B927-707E781D20D9}"
-      DTS:ObjectName="CreateStagindTables.sql">
+      DTS:ObjectName="CreateStagingTables.sql">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="C:\Users\vmadmin\source\repos\EnergieReporter Integration Service\SqlScripts\CreateStagindTables.sql" />
+          DTS:ConnectionString="C:\Users\vmadmin\source\repos\EnergieReporter Integration Service\SqlScripts\CreateStagingTables.sql" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -611,7 +641,7 @@
           DTS:RowDelimiter=""
           DTS:DataRowsToSkip="400"
           DTS:TextQualifier="_x003C_none_x003E_"
-          DTS:CodePage="1252"
+          DTS:CodePage="65001"
           DTS:ConnectionString="C:\Temp\RawData\energyreporter_municipality_historized.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
@@ -620,25 +650,25 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="bfs_nr"
-              DTS:DTSID="{76895BF6-CAEE-4711-AD4D-0B60D979D2B5}"
+              DTS:DTSID="{E92C455C-80DC-40FD-BAE5-C89B68306818}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="120"
-              DTS:DataType="129"
+              DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="municipality"
-              DTS:DTSID="{7F46E78B-9799-4454-8B10-EFBA5D21CE88}"
+              DTS:DTSID="{CEAAA19B-6BAB-4B68-AB28-0439F0521688}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="2"
-              DTS:DataType="129"
+              DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="canton"
-              DTS:DTSID="{3F01F677-F925-4BB5-B91E-3AF6508FC7AA}"
+              DTS:DTSID="{9A3758DD-2F84-444D-8497-E416D185435B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -646,7 +676,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="bfs_municipality_type_2012_25"
-              DTS:DTSID="{657AE280-1818-40F1-AC8D-E97A4F8B9A3C}"
+              DTS:DTSID="{40788F64-AD9F-4DAA-81B8-B8B42E0CE345}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -654,7 +684,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="energyreporter_date"
-              DTS:DTSID="{E55945CA-9901-428D-B054-21C703D2F4B4}"
+              DTS:DTSID="{E847C969-52CA-40CA-84BE-80E5E44E5F99}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -662,7 +692,7 @@
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="electric_car_share"
-              DTS:DTSID="{DF524CBF-E205-4865-A6AC-E8838119CCE7}"
+              DTS:DTSID="{952B3C5F-7690-4042-9809-8F619ACB23C6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -670,7 +700,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="electric_car_count"
-              DTS:DTSID="{370817C6-B68A-4E50-8E71-F577336E115C}"
+              DTS:DTSID="{8A5E2F49-B2FA-4AA3-8EF8-C78B4AFEEC79}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -678,7 +708,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="electric_car_share_last_change"
-              DTS:DTSID="{500FD767-AA1C-41BB-8FFE-D60AE7EC45E3}"
+              DTS:DTSID="{112DE76D-2995-4E85-8904-134B260B9456}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -686,7 +716,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="electric_car_charging_spot_count"
-              DTS:DTSID="{FAE235F3-2646-40F5-A650-16FCA2DA1049}"
+              DTS:DTSID="{3D0439DC-B762-4D72-A16B-71B84BA6F503}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -694,7 +724,7 @@
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="electric_cars_per_charging_spot"
-              DTS:DTSID="{B0272097-80D0-4435-A21B-DFA3C0F72937}"
+              DTS:DTSID="{ACF6A34F-348E-4369-850A-0BD57C073DC4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -702,7 +732,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="electric_car_charging_spot_last_change"
-              DTS:DTSID="{A9BB38A9-6775-46A3-BC62-30EED3C8E514}"
+              DTS:DTSID="{7BB17929-4722-4FBB-9938-6967008FBB70}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -710,7 +740,7 @@
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="solar_potential_usage"
-              DTS:DTSID="{E46CF24F-B808-407B-B3BA-ED8D0BC79E16}"
+              DTS:DTSID="{4B7FFCF3-F78A-401F-B1EC-CA8C23042B63}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -718,7 +748,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="solar_power_installed_kwp"
-              DTS:DTSID="{53B6FD8A-F127-4910-857F-C69027AC9955}"
+              DTS:DTSID="{1F94EDE4-A620-428C-A2A8-9C78202DF6D4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -726,7 +756,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="solar_potential_usage_last_change"
-              DTS:DTSID="{CD4A9109-03DE-4B9C-A47E-7108D38C68A6}"
+              DTS:DTSID="{75914F61-8A17-41D1-BEEF-985593B1C233}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -734,7 +764,7 @@
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="renewable_heating_share"
-              DTS:DTSID="{7EE7D170-74F0-47BD-ABCB-8A2986966A9A}"
+              DTS:DTSID="{11C64E45-41B7-43F1-9603-58795A4FFD80}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -742,7 +772,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="renewable_heating_count"
-              DTS:DTSID="{EA1C99A3-31D1-41A3-918D-BE9A29F46850}"
+              DTS:DTSID="{37010D74-D6F3-4903-9FC2-3DC8E03DDA16}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -750,7 +780,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="non_renewable_heating_count"
-              DTS:DTSID="{F5CB135A-8F18-4B1B-879A-DDF244F715A2}"
+              DTS:DTSID="{F177ED74-7C73-4F38-BFFB-146F857A8172}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -758,7 +788,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="no_heating_count"
-              DTS:DTSID="{C21E0F59-69AF-4C04-94E2-D546FE05C7EE}"
+              DTS:DTSID="{56BE5F95-C60C-4DD6-A742-360FE96D5600}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -766,7 +796,7 @@
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="renewable_heating_share_coverage"
-              DTS:DTSID="{1A5C778E-C302-4BE0-8101-697BBC7939CD}"
+              DTS:DTSID="{9500CCA4-A26F-46B9-ADB4-F05012AC5A4A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -774,7 +804,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="renewable_heating_share_last_change"
-              DTS:DTSID="{BCC7102B-6ECE-4E77-85EE-5E756788BC03}"
+              DTS:DTSID="{AD27F289-8442-4AC3-B51E-61E412A9F6FC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -782,7 +812,7 @@
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="elec_consumption_mwh_per_year_per_capita"
-              DTS:DTSID="{DAE803A7-2B5C-4D7D-AFC1-737AA664D688}"
+              DTS:DTSID="{E4424D95-728C-4AC5-8E7B-EC234D9C6942}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -790,7 +820,7 @@
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="elec_consumption_households_mwh_per_year_per_capita"
-              DTS:DTSID="{36616CF5-0442-4AD9-872F-C59199BBA635}"
+              DTS:DTSID="{E13489DE-9967-4D44-8C38-91AB238EE312}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -798,7 +828,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="elec_consumption_mwh_per_year"
-              DTS:DTSID="{AA07E0B3-28F0-41A5-88ED-4C66B3F8B210}"
+              DTS:DTSID="{3B73215C-D819-4BCA-A11A-9868743351D4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -806,7 +836,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="elec_consumption_households_mwh_per_year"
-              DTS:DTSID="{E62582F4-9AF2-4243-BE02-85204700E754}"
+              DTS:DTSID="{B80A5C46-310F-4089-B306-3B843B526D26}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -814,7 +844,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="elec_consumption_date_from"
-              DTS:DTSID="{DE256846-FEA2-4501-B58A-A6974281818D}"
+              DTS:DTSID="{B4A78460-F533-4653-95FF-5640816F664B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -822,7 +852,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="elec_consumption_date_until"
-              DTS:DTSID="{A0183F5C-C1AD-4FE3-9030-50FB180B23AF}"
+              DTS:DTSID="{A6DE3B24-6169-4F31-9A94-251FE4C16D62}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -830,7 +860,7 @@
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="renelec_production_mwh_per_year_per_capita"
-              DTS:DTSID="{173FF580-1D24-41C7-AC6F-3A8E3280DD32}"
+              DTS:DTSID="{24928A2B-D307-4684-907E-32E0F5939DBF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -838,7 +868,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="renelec_production_mwh_per_year"
-              DTS:DTSID="{5DE72423-6572-4F13-B038-FD6B70AD3C22}"
+              DTS:DTSID="{E5CEF89C-4B03-4426-92CC-973F28D8D679}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -846,7 +876,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="renelec_production_water_mwh_per_year"
-              DTS:DTSID="{6066CB04-8060-463D-94F5-6B2E33970121}"
+              DTS:DTSID="{FBBE01AB-F223-4669-B761-C9F475B28760}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -854,7 +884,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="renelec_production_solar_mwh_per_year"
-              DTS:DTSID="{AF4A880B-0942-4C5B-AEBC-5F83B5C0A12C}"
+              DTS:DTSID="{B08EEE79-53F7-47EF-A5D3-ECE761AC3D42}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -862,7 +892,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="renelec_production_wind_mwh_per_year"
-              DTS:DTSID="{04B0B57C-0034-4324-83F3-233D4DA2ED4F}"
+              DTS:DTSID="{E2E61359-5DFB-4710-83B7-FAAA0AD02C83}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -870,7 +900,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="renelec_production_biomass_mwh_per_year"
-              DTS:DTSID="{8AFA53CE-FF46-4983-AC91-64BAEC3886E8}"
+              DTS:DTSID="{6E1702DB-8A53-4C52-ADB6-FA66232CBBF5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -878,7 +908,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="renelec_production_waste_mwh_per_year"
-              DTS:DTSID="{FE8EC8B3-DE06-4ED3-BDD6-12DEF0B2DADF}"
+              DTS:DTSID="{E4593AFB-9D4C-461C-8457-7D4ABBE1670F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -886,7 +916,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="renelec_production_date_from"
-              DTS:DTSID="{364D7315-B19E-4ABB-B36D-293A536C640B}"
+              DTS:DTSID="{44D2D2C1-CE75-4E83-9897-DC0B43FB1AAE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -894,10 +924,42 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="renelec_production_date_until"
-              DTS:DTSID="{3B8D06A9-754E-4259-A02B-DC247F76AB33}"
+              DTS:DTSID="{95E175D7-BD80-49E1-A5FC-CCCCC26B25DF}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[PopulateDimensionTables.sql]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{3FC5242B-6D36-4E9F-89E6-F18C4A0CF889}"
+      DTS:ObjectName="PopulateDimensionTables.sql">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Users\vmadmin\source\repos\EnergieReporter Integration Service\SqlScripts\PopulateDimensionTables.sql" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[PopulateFactTable.sql]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{421898C6-C597-4E4D-A7DB-BE5760AFE530}"
+      DTS:ObjectName="PopulateFactTable.sql">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Users\vmadmin\source\repos\EnergieReporter Integration Service\SqlScripts\PopulateFactTable.sql" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[SQLServer_Connection]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{4CBE0334-F608-4DE3-99B6-FB33D97DFD5B}"
+      DTS:ObjectName="SQLServer_Connection">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=WIV11-VMWP1\DATAWAREHOUSE;Initial Catalog=ERDataWarehouseDB;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{4CBE0334-F608-4DE3-99B6-FB33D97DFD5B}WIV11-VMWP1\DATAWAREHOUSE.ERDataWarehouseDB;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -914,16 +976,16 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[WIV11-VMWP1\DATAWAREHOUSE.ERStagindDB]"
+      DTS:refId="Package.ConnectionManagers[WIV11-VMWP1\DATAWAREHOUSE.ERStagingDB]"
       DTS:CreationName="OLEDB"
       DTS:DelayValidation="True"
       DTS:DTSID="{587A9482-C709-47A9-949A-AC1CC48E45EE}"
-      DTS:ObjectName="WIV11-VMWP1\DATAWAREHOUSE.ERStagindDB">
+      DTS:ObjectName="WIV11-VMWP1\DATAWAREHOUSE.ERStagingDB">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=WIV11-VMWP1\DATAWAREHOUSE;Initial Catalog=ERStagindDB;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{587A9482-C709-47A9-949A-AC1CC48E45EE}WIV11-VMWP1\DATAWAREHOUSE.ERStagindDB;" />
+          DTS:ConnectionString="Data Source=WIV11-VMWP1\DATAWAREHOUSE;Initial Catalog=ERStagingDB;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{587A9482-C709-47A9-949A-AC1CC48E45EE}WIV11-VMWP1\DATAWAREHOUSE.ERStagindDB;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -996,6 +1058,42 @@
     </DTS:Variable>
   </DTS:Variables>
   <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Create Dimension Tables"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Create Dimension Tables"
+      DTS:DTSID="{C961C260-2B80-4A28-A0D1-A8904DB0185E}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Create Dimension Tables"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{BED488EB-5ABA-4D09-B199-997DEAD8BAB6}"
+          SQLTask:SqlStmtSourceType="FileConnection"
+          SQLTask:SqlStatementSource="CreateDimensionTables.sql" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Create Fact Table"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Create Fact Table"
+      DTS:DTSID="{7FA31C8D-DC33-4B01-BE6D-A88C5C23B7D6}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Create Fact Table"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{BED488EB-5ABA-4D09-B199-997DEAD8BAB6}"
+          SQLTask:SqlStmtSourceType="FileConnection"
+          SQLTask:SqlStatementSource="CreateFactTable.sql" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\Load Data"
       DTS:CreationName="Microsoft.Pipeline"
@@ -2744,8 +2842,8 @@
               <connections>
                 <connection
                   refId="Package\Load Data\ERCanton.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[WIV11-VMWP1\DATAWAREHOUSE.ERStagindDB]"
-                  connectionManagerRefId="Package.ConnectionManagers[WIV11-VMWP1\DATAWAREHOUSE.ERStagindDB]"
+                  connectionManagerID="Package.ConnectionManagers[WIV11-VMWP1\DATAWAREHOUSE.ERStagingDB]"
+                  connectionManagerRefId="Package.ConnectionManagers[WIV11-VMWP1\DATAWAREHOUSE.ERStagingDB]"
                   description="Die für den Zugriff auf die Datenbank verwendete OLE DB-Laufzeitverbindung."
                   name="OleDbConnection" />
               </connections>
@@ -3171,8 +3269,8 @@
               <connections>
                 <connection
                   refId="Package\Load Data\ERCountry.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[WIV11-VMWP1\DATAWAREHOUSE.ERStagindDB]"
-                  connectionManagerRefId="Package.ConnectionManagers[WIV11-VMWP1\DATAWAREHOUSE.ERStagindDB]"
+                  connectionManagerID="Package.ConnectionManagers[WIV11-VMWP1\DATAWAREHOUSE.ERStagingDB]"
+                  connectionManagerRefId="Package.ConnectionManagers[WIV11-VMWP1\DATAWAREHOUSE.ERStagingDB]"
                   description="Die für den Zugriff auf die Datenbank verwendete OLE DB-Laufzeitverbindung."
                   name="OleDbConnection" />
               </connections>
@@ -3598,8 +3696,8 @@
               <connections>
                 <connection
                   refId="Package\Load Data\ERMunicipality.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[WIV11-VMWP1\DATAWAREHOUSE.ERStagindDB]"
-                  connectionManagerRefId="Package.ConnectionManagers[WIV11-VMWP1\DATAWAREHOUSE.ERStagindDB]"
+                  connectionManagerID="Package.ConnectionManagers[WIV11-VMWP1\DATAWAREHOUSE.ERStagingDB]"
+                  connectionManagerRefId="Package.ConnectionManagers[WIV11-VMWP1\DATAWAREHOUSE.ERStagingDB]"
                   description="Die für den Zugriff auf die Datenbank verwendete OLE DB-Laufzeitverbindung."
                   name="OleDbConnection" />
               </connections>
@@ -3619,16 +3717,14 @@
                       lineageId="Package\Load Data\Municipality.Outputs[Ausgabe der Flatfilequelle].Columns[bfs_nr]" />
                     <inputColumn
                       refId="Package\Load Data\ERMunicipality.Inputs[Eingabe des OLE DB-Ziels].Columns[municipality]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
+                      cachedDataType="wstr"
                       cachedLength="120"
                       cachedName="municipality"
                       externalMetadataColumnId="Package\Load Data\ERMunicipality.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[municipality]"
                       lineageId="Package\Load Data\Municipality.Outputs[Ausgabe der Flatfilequelle].Columns[municipality]" />
                     <inputColumn
                       refId="Package\Load Data\ERMunicipality.Inputs[Eingabe des OLE DB-Ziels].Columns[canton]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
+                      cachedDataType="wstr"
                       cachedLength="2"
                       cachedName="canton"
                       externalMetadataColumnId="Package\Load Data\ERMunicipality.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[canton]"
@@ -3834,8 +3930,7 @@
                       name="bfs_nr" />
                     <externalMetadataColumn
                       refId="Package\Load Data\ERMunicipality.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[municipality]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       length="120"
                       name="municipality" />
                     <externalMetadataColumn
@@ -4053,8 +4148,7 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Load Data\Municipality.Outputs[Ausgabe der Flatfilequelle].Columns[municipality]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       errorOrTruncationOperation="Konvertierung"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Load Data\Municipality.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[municipality]"
@@ -4075,8 +4169,7 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Load Data\Municipality.Outputs[Ausgabe der Flatfilequelle].Columns[canton]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       errorOrTruncationOperation="Konvertierung"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Load Data\Municipality.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[canton]"
@@ -4744,14 +4837,12 @@
                       name="bfs_nr" />
                     <externalMetadataColumn
                       refId="Package\Load Data\Municipality.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[municipality]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       length="120"
                       name="municipality" />
                     <externalMetadataColumn
                       refId="Package\Load Data\Municipality.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[canton]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       length="2"
                       name="canton" />
                     <externalMetadataColumn
@@ -5642,6 +5733,43 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\Populate Dimension Tables"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:DelayValidation="True"
+      DTS:Description="Populate Dimension Tables"
+      DTS:DTSID="{B9010F81-2AFB-4071-9548-D5F93ED5D93E}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Populate Dimension Tables"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{4CBE0334-F608-4DE3-99B6-FB33D97DFD5B}"
+          SQLTask:SqlStmtSourceType="FileConnection"
+          SQLTask:SqlStatementSource="PopulateDimensionTables.sql" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Populate Fact Table"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Populate Fact Table"
+      DTS:DTSID="{69506F8C-2A4A-487B-B023-D8D0208BF89A}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Populate Fact Table"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{4CBE0334-F608-4DE3-99B6-FB33D97DFD5B}"
+          SQLTask:SqlStmtSourceType="FileConnection"
+          SQLTask:SqlStatementSource="PopulateFactTable.sql" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Prepare Staging DB"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:DelayValidation="True"
@@ -5657,9 +5785,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
         DTS:Name="DelayValidation">True</DTS:PropertyExpression>
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{587A9482-C709-47A9-949A-AC1CC48E45EE}"
+          SQLTask:Connection="{4CBE0334-F608-4DE3-99B6-FB33D97DFD5B}"
           SQLTask:SqlStmtSourceType="FileConnection"
-          SQLTask:SqlStatementSource="CreateStagindTables.sql" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="CreateStagingTables.sql" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -5678,6 +5806,24 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
           SQLTask:Connection="{BED488EB-5ABA-4D09-B199-997DEAD8BAB6}"
           SQLTask:SqlStmtSourceType="FileConnection"
           SQLTask:SqlStatementSource="DropRecreateStagindDb.sql" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Warehouse Database"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Create Data Warehouse Database"
+      DTS:DTSID="{F169A0B4-82A7-498F-BA51-337802B4A25F}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Warehouse Database"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{BED488EB-5ABA-4D09-B199-997DEAD8BAB6}"
+          SQLTask:SqlStmtSourceType="FileConnection"
+          SQLTask:SqlStatementSource="CreateDataWarehouseDb.sql" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
@@ -5706,6 +5852,46 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 2"
       DTS:To="Package\Prepare Staging DB" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 3]"
+      DTS:CreationName=""
+      DTS:DTSID="{42798DEA-6018-4509-8584-4D5683C4E720}"
+      DTS:From="Package\Load Data"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 3"
+      DTS:To="Package\Warehouse Database" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 4]"
+      DTS:CreationName=""
+      DTS:DTSID="{BF18CEDE-0B4F-4BC4-AA9E-1BD9ACB9693E}"
+      DTS:From="Package\Warehouse Database"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 4"
+      DTS:To="Package\Create Dimension Tables" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 5]"
+      DTS:CreationName=""
+      DTS:DTSID="{DF834CD4-B48F-4649-9923-93452BBA732E}"
+      DTS:From="Package\Create Dimension Tables"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 5"
+      DTS:To="Package\Create Fact Table" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 6]"
+      DTS:CreationName=""
+      DTS:DTSID="{B1CA8754-DA56-4BC9-9F4A-AD56FBED3A7A}"
+      DTS:From="Package\Create Fact Table"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 6"
+      DTS:To="Package\Populate Dimension Tables" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 7]"
+      DTS:CreationName=""
+      DTS:DTSID="{934B962C-721C-45D9-B0CA-D4AFC6A2C235}"
+      DTS:From="Package\Populate Dimension Tables"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 7"
+      DTS:To="Package\Populate Fact Table" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -5718,11 +5904,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="127,42"
           Id="Package\Load Data"
-          TopLeft="271,518" />
+          TopLeft="1009,179" />
         <NodeLayout
           Size="253,42"
           Id="Package\Load the ER Zipped Data and extract"
@@ -5730,25 +5916,25 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
         <NodeLayout
           Size="163,42"
           Id="Package\Prepare Staging DB"
-          TopLeft="255,390" />
+          TopLeft="763,179" />
         <NodeLayout
           Size="172,42"
           Id="Package\Recreate Staging DB"
-          TopLeft="254,276" />
+          TopLeft="519,179" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="338.25,222">
+          TopLeft="463,200.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,54"
+              EndConnector="56,0"
               Start="0,0"
-              End="0,46.5">
+              End="48.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,46.5" />
+                    End="48.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5759,18 +5945,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="335.5,432">
+          TopLeft="926,200">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,86"
+              EndConnector="83,0"
               Start="0,0"
-              End="0,78.5">
+              End="75.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,78.5" />
+                    End="75.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5781,18 +5967,148 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="338.25,318">
+          TopLeft="691,200">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,72"
+              EndConnector="72,0"
               Start="0,0"
-              End="0,64.5">
+              End="64.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,64.5" />
+                    End="64.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="163,42"
+          Id="Package\Warehouse Database"
+          TopLeft="994,297" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 3]"
+          TopLeft="1074,221">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,76"
+              Start="0,0"
+              End="0,68.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,68.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="162,42"
+          Id="Package\Create Dimension Tables"
+          TopLeft="994,401" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 4]"
+          TopLeft="1075.25,339">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,62"
+              Start="0,0"
+              End="0,54.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,54.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="162,42"
+          Id="Package\Create Fact Table"
+          TopLeft="997,496" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 5]"
+          TopLeft="1076.75,443">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,53"
+              Start="0,0"
+              End="0,45.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,45.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="206,42"
+          Id="Package\Populate Dimension Tables"
+          TopLeft="1217,498" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 6]"
+          TopLeft="1159,518">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="58,0"
+              Start="0,0"
+              End="50.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="50.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="163,42"
+          Id="Package\Populate Fact Table"
+          TopLeft="1469,497" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 7]"
+          TopLeft="1423,518.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="46,0"
+              Start="0,0"
+              End="38.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="38.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
