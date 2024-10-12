@@ -12,8 +12,8 @@
   DTS:LocaleID="1031"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="147"
-  DTS:VersionGUID="{55660A38-DE6E-4B32-8654-773EF98696A5}">
+  DTS:VersionBuild="151"
+  DTS:VersionGUID="{AD4670CD-F7D8-4C11-8F55-FDAB17F2E251}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -312,17 +312,17 @@
           DTS:ColumnNamesInFirstDataRow="True"
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
-          DTS:CodePage="1252"
+          DTS:CodePage="65001"
           DTS:ConnectionString="C:\Temp\RawData\energyreporter_national_historized.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="23"
-              DTS:DataType="129"
+              DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="country"
-              DTS:DTSID="{F2A3710B-24E5-4774-AE71-B5F761839746}"
+              DTS:DTSID="{7B7A67ED-06E8-4D0F-8D57-E421B7969230}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -330,7 +330,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="energyreporter_date"
-              DTS:DTSID="{882FCC0B-15E6-477C-A731-DE5C0611B3E2}"
+              DTS:DTSID="{79033161-7277-4405-B2EE-A779EFEAE9E5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -338,7 +338,7 @@
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="electric_car_share"
-              DTS:DTSID="{9B822606-B11E-4E6A-AAFF-F42269322B6F}"
+              DTS:DTSID="{1B481D9B-E354-47E6-A236-64CA40915198}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -346,7 +346,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="electric_car_count"
-              DTS:DTSID="{346F8BBA-AFE4-49C5-9424-1B410A6FFAAF}"
+              DTS:DTSID="{EEA660F8-F5E6-4557-8FD6-F7A2D9BD995A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -354,7 +354,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="electric_car_share_last_change"
-              DTS:DTSID="{A138C2BA-7D6A-4A7B-8C47-17090FC5C2FC}"
+              DTS:DTSID="{94F627DF-99E8-43A3-8C46-C4A70AED1372}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -362,7 +362,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="electric_car_charging_spot_count"
-              DTS:DTSID="{3BB5F627-80DB-4E19-B5CE-05D260720658}"
+              DTS:DTSID="{8D24C098-01DF-4B9B-ACF0-CC1638E1C47F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -370,7 +370,7 @@
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="electric_cars_per_charging_spot"
-              DTS:DTSID="{B6682B7C-57DF-41D9-AC5D-4F03EC00055B}"
+              DTS:DTSID="{A1CE722F-5400-4CDE-BA25-566CE273BEC4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -378,7 +378,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="electric_car_charging_spot_last_change"
-              DTS:DTSID="{99BDD4F3-4B97-49FE-9B9E-38FDAF32E81D}"
+              DTS:DTSID="{86DF7A77-23E3-437B-B2B9-DA5013AA457C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -386,7 +386,7 @@
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="solar_potential_usage"
-              DTS:DTSID="{CD8E6255-0C3F-4ABC-A147-9E561B44D1BA}"
+              DTS:DTSID="{B5A75775-5074-42E4-941B-2B8842CD4EE1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -394,7 +394,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="solar_power_installed_kwp"
-              DTS:DTSID="{CE15EEC4-E1B6-4853-AE76-E4ED07B79B34}"
+              DTS:DTSID="{FD9A7FD5-4CC3-4CC3-A7A6-17AF028C45A7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -402,7 +402,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="solar_potential_usage_last_change"
-              DTS:DTSID="{328E8FA1-5BD2-4449-A815-356242254BF0}"
+              DTS:DTSID="{B277F3F5-B1CC-4A1E-8D86-BF080F704792}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -410,7 +410,7 @@
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="renewable_heating_share"
-              DTS:DTSID="{27CF5479-094E-4FCA-AC44-7FB0C0084D02}"
+              DTS:DTSID="{604608CC-B75B-4B57-B223-3110878CB7EE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -418,7 +418,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="renewable_heating_count"
-              DTS:DTSID="{8DC0EB63-702C-48FE-8642-31D96B346BB7}"
+              DTS:DTSID="{29D867A3-60E7-4CCB-BD75-62D806C11D27}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -426,7 +426,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="non_renewable_heating_count"
-              DTS:DTSID="{80CB1818-7863-4709-90C8-9BE403AF6C99}"
+              DTS:DTSID="{BADF1304-2905-4CA5-9568-6A0B795BE011}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -434,7 +434,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="no_heating_count"
-              DTS:DTSID="{4E78EB8A-4136-45C9-8589-B00ABC0DAA6F}"
+              DTS:DTSID="{9AA41E4C-57CB-46A8-9976-BE4EA40CDBFF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -442,7 +442,7 @@
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="renewable_heating_share_coverage"
-              DTS:DTSID="{7057C38C-18A6-4A4F-98E0-CE4F55843931}"
+              DTS:DTSID="{40B1F62B-220D-49DE-8C38-0B25742BFE8D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -450,7 +450,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="renewable_heating_share_last_change"
-              DTS:DTSID="{CA309A13-15FB-4D92-8DB4-A2D577349BA3}"
+              DTS:DTSID="{D06968F8-86E9-498E-81F9-EACB0CB74C7C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -458,7 +458,7 @@
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="elec_consumption_mwh_per_year_per_capita"
-              DTS:DTSID="{7FB67ACE-8684-4BB7-ADBA-0235E81AD85E}"
+              DTS:DTSID="{580DDBB0-A80E-46FF-807F-8EFC66553B33}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -466,7 +466,7 @@
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="elec_consumption_households_mwh_per_year_per_capita"
-              DTS:DTSID="{21079685-8BA2-4894-B9DB-129AD71C8C37}"
+              DTS:DTSID="{FA8FC454-F81C-49F2-8976-F3124228F434}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -474,7 +474,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="elec_consumption_mwh_per_year"
-              DTS:DTSID="{DD36CB0D-0C90-414D-9D33-3C6B8CA93ECE}"
+              DTS:DTSID="{F83862EF-BD44-42AA-8D73-9D8044924C16}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -482,7 +482,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="elec_consumption_households_mwh_per_year"
-              DTS:DTSID="{071FD568-B63D-481D-A27F-DC4DA9378EF3}"
+              DTS:DTSID="{4467F0C0-5B61-42F6-92DC-B99BDCB2E848}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -490,7 +490,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="elec_consumption_date_from"
-              DTS:DTSID="{EA48781B-2567-4354-A360-A2714D283DA9}"
+              DTS:DTSID="{2AD6307D-6020-4FD4-AB46-6C6EB16554F9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -498,7 +498,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="elec_consumption_date_until"
-              DTS:DTSID="{B0C706BE-055A-4108-BD3B-B40A56797E9E}"
+              DTS:DTSID="{8781B9BD-D6D4-4AFA-85F8-1FA600BF7CC3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -506,7 +506,7 @@
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="renelec_production_mwh_per_year_per_capita"
-              DTS:DTSID="{23C8C01B-E974-4842-B052-84DE6A088E47}"
+              DTS:DTSID="{53F47A80-F263-45F8-88E4-7AB3DBF4599D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -514,7 +514,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="renelec_production_mwh_per_year"
-              DTS:DTSID="{703E343C-55CC-4EEE-B975-8681BEF0F60F}"
+              DTS:DTSID="{E57B0C95-3C18-4BF0-8109-A4877470C63B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -522,7 +522,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="renelec_production_water_mwh_per_year"
-              DTS:DTSID="{E0D1301C-FF3D-46EA-987A-2B8A72A152A1}"
+              DTS:DTSID="{F9C83C18-C1B7-409A-B025-0F93B1F860BA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -530,7 +530,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="renelec_production_solar_mwh_per_year"
-              DTS:DTSID="{7D1A66BE-C5AB-45F6-8779-234DD19ECC5A}"
+              DTS:DTSID="{05F7AD1C-4988-4C1B-94F6-54D8200DE7E8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -538,7 +538,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="renelec_production_wind_mwh_per_year"
-              DTS:DTSID="{F711735E-A944-4904-948D-4CEBE88F47CE}"
+              DTS:DTSID="{176CA68F-57C3-48B6-923F-B1F558921E1E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -546,7 +546,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="renelec_production_biomass_mwh_per_year"
-              DTS:DTSID="{89FB402B-3090-459B-9E10-C5ADA61C4D95}"
+              DTS:DTSID="{30193B76-6500-450C-B46B-A57456D8C662}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -554,7 +554,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="renelec_production_waste_mwh_per_year"
-              DTS:DTSID="{0B4C4681-0064-4D8C-8F58-B5D62DCCD063}"
+              DTS:DTSID="{5114942D-9275-4294-8178-0123E7058EB2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -562,7 +562,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="renelec_production_date_from"
-              DTS:DTSID="{BE2218F4-FB7C-45E6-93A4-134E4BC092EB}"
+              DTS:DTSID="{63310E5E-DA65-4D04-8B73-614B1956B846}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -570,7 +570,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="renelec_production_date_until"
-              DTS:DTSID="{4F669F54-F410-4268-8BFD-34A4265C2FD5}"
+              DTS:DTSID="{B236BC15-F2A3-478E-88FE-2704D53E0ACB}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -1979,8 +1979,7 @@
                   <outputColumns>
                     <outputColumn
                       refId="Package\Load Data\Country.Outputs[Ausgabe der Flatfilequelle].Columns[country]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       errorOrTruncationOperation="Konvertierung"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Load Data\Country.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[country]"
@@ -2624,8 +2623,7 @@
                     isUsed="True">
                     <externalMetadataColumn
                       refId="Package\Load Data\Country.Outputs[Ausgabe der Flatfilequelle].ExternalColumns[country]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       length="23"
                       name="country" />
                     <externalMetadataColumn
@@ -3284,8 +3282,7 @@
                   <inputColumns>
                     <inputColumn
                       refId="Package\Load Data\ERCountry.Inputs[Eingabe des OLE DB-Ziels].Columns[country]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
+                      cachedDataType="wstr"
                       cachedLength="23"
                       cachedName="country"
                       externalMetadataColumnId="Package\Load Data\ERCountry.Inputs[Eingabe des OLE DB-Ziels].ExternalColumns[country]"
@@ -5748,7 +5745,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{4CBE0334-F608-4DE3-99B6-FB33D97DFD5B}"
           SQLTask:SqlStmtSourceType="FileConnection"
-          SQLTask:SqlStatementSource="PopulateDimensionTables.sql" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="PopulateDimensionTables.sql"
+          SQLTask:CodePage="65001" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable

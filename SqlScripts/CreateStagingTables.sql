@@ -5,7 +5,7 @@ IF OBJECT_ID('dbo.ERCountry', 'U') IS NOT NULL
 DROP TABLE dbo.ERCountry;
 
 CREATE TABLE ERCountry (
-    country varchar(23),
+    country nvarchar(23),
     energyreporter_date datetime,
     electric_car_share float,
     electric_car_count int,
