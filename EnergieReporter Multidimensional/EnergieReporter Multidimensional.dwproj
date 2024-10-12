@@ -6,36 +6,6 @@
     <Name>EnergieReporter Multidimensional.database</Name>
     <FullPath>EnergieReporter Multidimensional.database</FullPath>
   </Database>
-  <Cubes>
-    <ProjectItem>
-      <Name>ER Data Warehouse DB.cube</Name>
-      <FullPath>ER Data Warehouse DB.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>ER Data Warehouse DB.partitions</Name>
-          <FullPath>ER Data Warehouse DB.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
-  </Cubes>
-  <Dimensions>
-    <ProjectItem>
-      <Name>Dim Gemeinde 1.dim</Name>
-      <FullPath>Dim Gemeinde 1.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Dim Kanton.dim</Name>
-      <FullPath>Dim Kanton.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Dim Land.dim</Name>
-      <FullPath>Dim Land.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Dim Zeit.dim</Name>
-      <FullPath>Dim Zeit.dim</FullPath>
-    </ProjectItem>
-  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>ER Data Warehouse DB.ds</Name>
