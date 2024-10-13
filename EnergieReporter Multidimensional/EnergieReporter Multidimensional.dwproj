@@ -6,6 +6,18 @@
     <Name>EnergieReporter Multidimensional.database</Name>
     <FullPath>EnergieReporter Multidimensional.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Energie Reporter.cube</Name>
+      <FullPath>Energie Reporter.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Energie Reporter.partitions</Name>
+          <FullPath>Energie Reporter.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>Gemeinde.dim</Name>
