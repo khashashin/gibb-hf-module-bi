@@ -6,10 +6,55 @@
     <Name>EnergieReporter Multidimensional.database</Name>
     <FullPath>EnergieReporter Multidimensional.database</FullPath>
   </Database>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Gemeinde.dim</Name>
+      <FullPath>Gemeinde.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Kanton.dim</Name>
+      <FullPath>Kanton.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Land.dim</Name>
+      <FullPath>Land.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Zeit.dim</Name>
+      <FullPath>Zeit.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>Energie Reporter.ds</Name>
+      <FullPath>Energie Reporter.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Energie Reporter.dsv</Name>
+      <FullPath>Energie Reporter.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>Energie Reporter</Id>
+            <Name>Energie Reporter</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=WIV11-VMWP1\DATAWAREHOUSE;Integrated Security=SSPI;Initial Catalog=EnergieReporter</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>Energie Reporter</Id>
+            <Name>Energie Reporter</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>

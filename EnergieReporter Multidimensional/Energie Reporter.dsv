@@ -1,0 +1,221 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="552d9598-e852-4078-844c-03d1d8e49ed8" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Energie Reporter</ID>
+  <Name>Energie Reporter</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Energie Reporter</DataSourceID>
+  <Schema>
+    <xs:schema id="Energie_x0020_Reporter" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Energie_x0020_Reporter" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="a2e93687-34c8-4b25-89cf-bf875d40b7d6">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_EnergyData" msprop:DbTableName="EnergyData" msprop:FriendlyName="EnergyData" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="92cadcce-e168-4957-8e87-4d52a7c435b5">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="FactID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="FactID" msprop:DbColumnName="FactID" msprop:design-time-name="7a8bdd11-d54a-489a-9a66-fc0304b94d2f" type="xs:int" />
+                  <xs:element name="GemeindeID" msprop:FriendlyName="GemeindeID" msprop:DbColumnName="GemeindeID" msprop:design-time-name="8fa0ff73-e6e0-4f64-bb99-470c068d7ba9" type="xs:int" minOccurs="0" />
+                  <xs:element name="KantonID" msprop:FriendlyName="KantonID" msprop:DbColumnName="KantonID" msprop:design-time-name="4027f55c-dcce-477a-bbe1-ba22969a1ed9" type="xs:int" minOccurs="0" />
+                  <xs:element name="LandID" msprop:FriendlyName="LandID" msprop:DbColumnName="LandID" msprop:design-time-name="f694a187-8e1f-4a85-ba16-072727ef052b" type="xs:int" minOccurs="0" />
+                  <xs:element name="DateKey" msprop:FriendlyName="DateKey" msprop:DbColumnName="DateKey" msprop:design-time-name="a5560e66-77f5-4991-aee0-a2d358af9697" type="xs:int" />
+                  <xs:element name="ElectricCarShare" msprop:FriendlyName="ElectricCarShare" msprop:DbColumnName="ElectricCarShare" msprop:design-time-name="743d2864-1dfa-475e-92b5-36e441f9ded1" type="xs:double" minOccurs="0" />
+                  <xs:element name="ElectricCarCount" msprop:FriendlyName="ElectricCarCount" msprop:DbColumnName="ElectricCarCount" msprop:design-time-name="e05e387d-1d12-4086-9ba7-eae3c360bcb5" type="xs:int" minOccurs="0" />
+                  <xs:element name="ElectricCarShareLastChange" msprop:FriendlyName="ElectricCarShareLastChange" msprop:DbColumnName="ElectricCarShareLastChange" msprop:design-time-name="8d7fc8a2-0c28-40b7-98b5-8183aaa34aa6" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="ElectricCarChargingSpotCount" msprop:FriendlyName="ElectricCarChargingSpotCount" msprop:DbColumnName="ElectricCarChargingSpotCount" msprop:design-time-name="08634c5a-6e06-49b8-aecc-e9980be49e44" type="xs:int" minOccurs="0" />
+                  <xs:element name="ElectricCarsPerChargingSpot" msprop:FriendlyName="ElectricCarsPerChargingSpot" msprop:DbColumnName="ElectricCarsPerChargingSpot" msprop:design-time-name="f913058c-b9b2-4246-8dc7-fb25c7c3d423" type="xs:double" minOccurs="0" />
+                  <xs:element name="ElectricCarChargingSpotLastChange" msprop:FriendlyName="ElectricCarChargingSpotLastChange" msprop:DbColumnName="ElectricCarChargingSpotLastChange" msprop:design-time-name="7fec9326-6466-4345-b594-0a8eed2e8571" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="SolarPotentialUsage" msprop:FriendlyName="SolarPotentialUsage" msprop:DbColumnName="SolarPotentialUsage" msprop:design-time-name="220f638d-a63e-4348-80a7-2de21c440977" type="xs:double" minOccurs="0" />
+                  <xs:element name="SolarPowerInstalledKWp" msprop:FriendlyName="SolarPowerInstalledKWp" msprop:DbColumnName="SolarPowerInstalledKWp" msprop:design-time-name="78ede822-a9d2-446f-8b4d-e720abd59a76" type="xs:int" minOccurs="0" />
+                  <xs:element name="SolarPotentialUsageLastChange" msprop:FriendlyName="SolarPotentialUsageLastChange" msprop:DbColumnName="SolarPotentialUsageLastChange" msprop:design-time-name="12fd20f3-98ef-4a18-9d56-de6ba7a9732d" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="RenewableHeatingShare" msprop:FriendlyName="RenewableHeatingShare" msprop:DbColumnName="RenewableHeatingShare" msprop:design-time-name="32eaa67e-c6b5-4365-b3fa-8ea7afb4924e" type="xs:double" minOccurs="0" />
+                  <xs:element name="RenewableHeatingCount" msprop:FriendlyName="RenewableHeatingCount" msprop:DbColumnName="RenewableHeatingCount" msprop:design-time-name="afde5dfd-68f2-44b0-83ca-ea31793c8c03" type="xs:int" minOccurs="0" />
+                  <xs:element name="NonRenewableHeatingCount" msprop:FriendlyName="NonRenewableHeatingCount" msprop:DbColumnName="NonRenewableHeatingCount" msprop:design-time-name="34a709ee-c23b-4f87-9cc0-924e845c38e5" type="xs:int" minOccurs="0" />
+                  <xs:element name="NoHeatingCount" msprop:FriendlyName="NoHeatingCount" msprop:DbColumnName="NoHeatingCount" msprop:design-time-name="7ab4127c-2c91-48c3-8ce2-cf6785f7178e" type="xs:int" minOccurs="0" />
+                  <xs:element name="RenewableHeatingShareCoverage" msprop:FriendlyName="RenewableHeatingShareCoverage" msprop:DbColumnName="RenewableHeatingShareCoverage" msprop:design-time-name="be6c8ea8-e771-404e-8655-11eedde3c3b0" type="xs:double" minOccurs="0" />
+                  <xs:element name="RenewableHeatingShareLastChange" msprop:FriendlyName="RenewableHeatingShareLastChange" msprop:DbColumnName="RenewableHeatingShareLastChange" msprop:design-time-name="edc33b49-b5d2-48cf-b99a-997a7e09c772" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="ElecConsumptionMWhPerYearPerCapita" msprop:FriendlyName="ElecConsumptionMWhPerYearPerCapita" msprop:DbColumnName="ElecConsumptionMWhPerYearPerCapita" msprop:design-time-name="5b05f3f7-b71a-4d5d-8d40-6f9cf081c770" type="xs:double" minOccurs="0" />
+                  <xs:element name="ElecConsumptionHouseholdsMWhPerYearPerCapita" msprop:FriendlyName="ElecConsumptionHouseholdsMWhPerYearPerCapita" msprop:DbColumnName="ElecConsumptionHouseholdsMWhPerYearPerCapita" msprop:design-time-name="8c399c63-48b3-4db3-b9ce-56c1d3e8c8d3" type="xs:double" minOccurs="0" />
+                  <xs:element name="ElecConsumptionMWhPerYear" msprop:FriendlyName="ElecConsumptionMWhPerYear" msprop:DbColumnName="ElecConsumptionMWhPerYear" msprop:design-time-name="822feb1c-2213-48b4-b081-fde6bd4f1499" type="xs:long" minOccurs="0" />
+                  <xs:element name="ElecConsumptionHouseholdsMWhPerYear" msprop:FriendlyName="ElecConsumptionHouseholdsMWhPerYear" msprop:DbColumnName="ElecConsumptionHouseholdsMWhPerYear" msprop:design-time-name="42944015-b394-4202-9507-a17c4bf956e0" type="xs:long" minOccurs="0" />
+                  <xs:element name="ElecConsumptionDateFrom" msprop:FriendlyName="ElecConsumptionDateFrom" msprop:DbColumnName="ElecConsumptionDateFrom" msprop:design-time-name="b6182c96-2b06-4fa7-abff-98ade91c30e7" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="ElecConsumptionDateUntil" msprop:FriendlyName="ElecConsumptionDateUntil" msprop:DbColumnName="ElecConsumptionDateUntil" msprop:design-time-name="2cb8109f-acab-404b-8a2d-bcea1f9fb526" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="RenelecProductionMWhPerYearPerCapita" msprop:FriendlyName="RenelecProductionMWhPerYearPerCapita" msprop:DbColumnName="RenelecProductionMWhPerYearPerCapita" msprop:design-time-name="95d1b5d4-2ed4-413a-bb7c-5e026f0a1312" type="xs:double" minOccurs="0" />
+                  <xs:element name="RenelecProductionMWhPerYear" msprop:FriendlyName="RenelecProductionMWhPerYear" msprop:DbColumnName="RenelecProductionMWhPerYear" msprop:design-time-name="0e0adb78-d24a-4285-bad6-a024919f8908" type="xs:long" minOccurs="0" />
+                  <xs:element name="RenelecProductionWaterMWhPerYear" msprop:FriendlyName="RenelecProductionWaterMWhPerYear" msprop:DbColumnName="RenelecProductionWaterMWhPerYear" msprop:design-time-name="1ce3e068-29d1-4940-9dca-19ee58fe221b" type="xs:long" minOccurs="0" />
+                  <xs:element name="RenelecProductionSolarMWhPerYear" msprop:FriendlyName="RenelecProductionSolarMWhPerYear" msprop:DbColumnName="RenelecProductionSolarMWhPerYear" msprop:design-time-name="9e09af71-3241-4561-99e0-a11a7a57d0b3" type="xs:long" minOccurs="0" />
+                  <xs:element name="RenelecProductionWindMWhPerYear" msprop:FriendlyName="RenelecProductionWindMWhPerYear" msprop:DbColumnName="RenelecProductionWindMWhPerYear" msprop:design-time-name="2dfdfec1-2469-4b23-b966-debeeccd4512" type="xs:long" minOccurs="0" />
+                  <xs:element name="RenelecProductionBiomassMWhPerYear" msprop:FriendlyName="RenelecProductionBiomassMWhPerYear" msprop:DbColumnName="RenelecProductionBiomassMWhPerYear" msprop:design-time-name="d3772882-0450-42f3-9088-afdb27528a8a" type="xs:long" minOccurs="0" />
+                  <xs:element name="RenelecProductionWasteMWhPerYear" msprop:FriendlyName="RenelecProductionWasteMWhPerYear" msprop:DbColumnName="RenelecProductionWasteMWhPerYear" msprop:design-time-name="0b253e9b-0f4c-40c9-8ecb-2a7b0bc5bd2c" type="xs:long" minOccurs="0" />
+                  <xs:element name="RenelecProductionDateFrom" msprop:FriendlyName="RenelecProductionDateFrom" msprop:DbColumnName="RenelecProductionDateFrom" msprop:design-time-name="362d2295-9728-4779-86f5-5706970245c0" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="RenelecProductionDateUntil" msprop:FriendlyName="RenelecProductionDateUntil" msprop:DbColumnName="RenelecProductionDateUntil" msprop:design-time-name="3c5bc8fc-d5c8-4c09-91a5-53b4b5936264" type="xs:dateTime" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Gemeinde" msprop:DbTableName="Gemeinde" msprop:FriendlyName="Gemeinde" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="45db313a-49fe-4d8f-bc53-6a868ced5c80">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="GemeindeID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="GemeindeID" msprop:DbColumnName="GemeindeID" msprop:design-time-name="da2d8127-78a9-44b1-8153-7af030b3e460" type="xs:int" />
+                  <xs:element name="BfsNummer" msprop:FriendlyName="BfsNummer" msprop:DbColumnName="BfsNummer" msprop:design-time-name="8137162e-76ed-4810-bbb6-f61829f3dae8" type="xs:int" />
+                  <xs:element name="Gemeindename" msprop:FriendlyName="Gemeindename" msprop:DbColumnName="Gemeindename" msprop:design-time-name="9c7e6f13-4d1b-4e40-9ae4-24dcd59053cc">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Kanton" msprop:FriendlyName="Kanton" msprop:DbColumnName="Kanton" msprop:design-time-name="10b920aa-2fe8-4281-85b2-405a7fbfa1a8">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Gemeindetyp" msprop:FriendlyName="Gemeindetyp" msprop:DbColumnName="Gemeindetyp" msprop:design-time-name="5958fb5c-c93b-41a9-9880-8feb40dcdc1f" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Kanton" msprop:DbTableName="Kanton" msprop:FriendlyName="Kanton" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="686ed936-d516-4235-b91f-50867c586bb0">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="KantonID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="KantonID" msprop:DbColumnName="KantonID" msprop:design-time-name="16bfcc1c-313e-439b-81ac-d14bb9da6ece" type="xs:int" />
+                  <xs:element name="Kanton" msprop:FriendlyName="Kanton" msprop:DbColumnName="Kanton" msprop:design-time-name="285b1d3e-8d4a-4c6a-9729-d7c71dfcd783">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="KantonName" msprop:FriendlyName="KantonName" msprop:DbColumnName="KantonName" msprop:design-time-name="3c4cddf0-c29f-4383-9a7a-edfed279d320">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Land" msprop:DbTableName="Land" msprop:FriendlyName="Land" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="8c42bebb-c814-4021-94f5-acff42e8d28b">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="LandID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="LandID" msprop:DbColumnName="LandID" msprop:design-time-name="bd61d1a1-d098-432b-981f-dfcdce0a40e1" type="xs:int" />
+                  <xs:element name="Land" msprop:FriendlyName="Land" msprop:DbColumnName="Land" msprop:design-time-name="d83880c3-2160-4dd8-891d-0437e3b5d060">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ISOCode" msprop:FriendlyName="ISOCode" msprop:DbColumnName="ISOCode" msprop:design-time-name="751ffa6e-3a21-4469-9f0d-3ccf36ba6825">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Zeit" msprop:DbTableName="Zeit" msprop:FriendlyName="Zeit" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="b4e14795-9d18-47d2-928f-f95d8276bad0">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DateKey" msprop:FriendlyName="DateKey" msprop:DbColumnName="DateKey" msprop:design-time-name="7271638b-4c3a-4fdb-8653-5a16b73a818c" type="xs:int" />
+                  <xs:element name="Datum" msprop:FriendlyName="Datum" msprop:DbColumnName="Datum" msprop:design-time-name="c4eeb643-9cd2-4452-9895-eec6f4ded176" type="xs:dateTime" />
+                  <xs:element name="Tag" msprop:FriendlyName="Tag" msprop:DbColumnName="Tag" msprop:design-time-name="02c16897-4efd-46c2-9f48-c1d0831276a6" type="xs:int" />
+                  <xs:element name="Monat" msprop:FriendlyName="Monat" msprop:DbColumnName="Monat" msprop:design-time-name="26ef33de-afeb-4257-b07d-118fca08de0c" type="xs:int" />
+                  <xs:element name="Monatsname" msprop:FriendlyName="Monatsname" msprop:DbColumnName="Monatsname" msprop:design-time-name="62889288-0f88-448d-8ce9-2b9f8d43f544">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Quartal" msprop:FriendlyName="Quartal" msprop:DbColumnName="Quartal" msprop:design-time-name="b0929712-6eec-4b9e-b316-5e6551ba5b9e">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Jahr" msprop:FriendlyName="Jahr" msprop:DbColumnName="Jahr" msprop:design-time-name="5904468a-e015-4bbe-a21d-1d3f092bbb0c" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_EnergyData" />
+          <xs:field xpath="FactID" />
+        </xs:unique>
+        <xs:unique name="dbo_Gemeinde_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Gemeinde" />
+          <xs:field xpath="GemeindeID" />
+        </xs:unique>
+        <xs:unique name="dbo_Kanton_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Kanton" />
+          <xs:field xpath="KantonID" />
+        </xs:unique>
+        <xs:unique name="dbo_Land_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Land" />
+          <xs:field xpath="LandID" />
+        </xs:unique>
+        <xs:unique name="dbo_Zeit_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Zeit" />
+          <xs:field xpath="DateKey" />
+        </xs:unique>
+        <xs:keyref name="FK__EnergyDat__LandI__440B1D61" refer="dbo_Land_Constraint1">
+          <xs:selector xpath=".//dbo_EnergyData" />
+          <xs:field xpath="LandID" />
+        </xs:keyref>
+        <xs:keyref name="FK__EnergyDat__Kanto__4316F928" refer="dbo_Kanton_Constraint1">
+          <xs:selector xpath=".//dbo_EnergyData" />
+          <xs:field xpath="KantonID" />
+        </xs:keyref>
+        <xs:keyref name="FK__EnergyDat__DateK__44FF419A" refer="dbo_Zeit_Constraint1">
+          <xs:selector xpath=".//dbo_EnergyData" />
+          <xs:field xpath="DateKey" />
+        </xs:keyref>
+        <xs:keyref name="FK__EnergyDat__Gemei__4222D4EF" refer="dbo_Gemeinde_Constraint1">
+          <xs:selector xpath=".//dbo_EnergyData" />
+          <xs:field xpath="GemeindeID" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Energie_x0020_Reporter xmlns="" />
+  </Schema>
+</DataSourceView>

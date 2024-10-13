@@ -1,0 +1,160 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="424403ba-0f6c-4efc-9c4b-e9276624c062" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Gemeinde</ID>
+  <Name>Gemeinde</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="d6677d40-d991-4f9a-8f67-0bf378df1528">
+    <DataSourceViewID>Energie Reporter</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="62b8041e-bb3d-4bc3-80a6-9658b468e0da">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="2e6c331f-10d9-4839-8e35-89abe197646c">
+      <ID>Gemeinde ID</ID>
+      <Name>Gemeinde ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="47472162-9ad3-42b3-adf0-3d57199fca17">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6bd57047-54b8-4c8a-8b91-02fbcbcca013">
+            <TableID>dbo_Gemeinde</TableID>
+            <ColumnID>GemeindeID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="2da99639-e254-4a38-a4ec-90a34baf1ddf">
+          <AttributeID>Bfs Nummer</AttributeID>
+          <Name>Bfs Nummer</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fe345895-ded6-4ad5-ae95-a81a3045c856">
+          <AttributeID>Gemeindename</AttributeID>
+          <Name>Gemeindename</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9bc45c08-7d30-4503-ad39-c2cbb7d1efb9">
+          <AttributeID>Kanton</AttributeID>
+          <Name>Kanton</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1924f353-e9d8-40e9-b94d-5805c4b4c6ab">
+          <AttributeID>Gemeindetyp</AttributeID>
+          <Name>Gemeindetyp</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="dd7f1aff-6fbc-485b-a0fe-521c0cbc374a">
+      <ID>Bfs Nummer</ID>
+      <Name>Bfs Nummer</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0568aafe-c917-4774-a808-96bc0dc4e4aa">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f221c687-efbe-4367-937d-461d18305ffe">
+            <TableID>dbo_Gemeinde</TableID>
+            <ColumnID>BfsNummer</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d7e8cd8a-4481-4980-b619-61fdb5c7ada7">
+      <ID>Gemeindename</ID>
+      <Name>Gemeindename</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f0a628cd-f59b-4eaa-bffd-7b1c09e1e857">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d19c8ad2-259f-4f9c-b550-dedbd309bff0">
+            <TableID>dbo_Gemeinde</TableID>
+            <ColumnID>Gemeindename</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="97b0c032-f9a8-4b1d-9610-92458f9d35a6">
+      <ID>Kanton</ID>
+      <Name>Kanton</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5e2b7560-0424-4a79-a19e-50222fec2029">
+          <DataType>WChar</DataType>
+          <DataSize>2</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="16f5a196-b949-44d8-974e-09f2bd353b1e">
+            <TableID>dbo_Gemeinde</TableID>
+            <ColumnID>Kanton</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8fe3ac00-89db-4502-a3bb-b4cfc11ef9e5">
+      <ID>Gemeindetyp</ID>
+      <Name>Gemeindetyp</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e3b19b1d-d641-4570-b9b5-6152ad7b1c3d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="425ead0e-ea44-4512-a798-5344ab334a3b">
+            <TableID>dbo_Gemeinde</TableID>
+            <ColumnID>Gemeindetyp</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
