@@ -4,8 +4,8 @@ GO
 PRINT 'Create Fact Table';
 GO
 
-PRINT 'Creating Fact_EnergyData Table';
-CREATE TABLE Fact_EnergyData (
+PRINT 'Creating EnergyData Table';
+CREATE TABLE EnergyData (
     FactID INT IDENTITY(1,1) PRIMARY KEY,
     GemeindeID INT NULL,
     KantonID INT NULL,
@@ -53,9 +53,9 @@ CREATE TABLE Fact_EnergyData (
     RenelecProductionDateUntil DATETIME NULL,
 
     -- Foreign Keys
-    FOREIGN KEY (GemeindeID) REFERENCES Dim_Gemeinde(GemeindeID),
-    FOREIGN KEY (KantonID) REFERENCES Dim_Kanton(KantonID),
-    FOREIGN KEY (LandID) REFERENCES Dim_Land(LandID),
-    FOREIGN KEY (DateKey) REFERENCES Dim_Zeit(DateKey)
+    FOREIGN KEY (GemeindeID) REFERENCES Gemeinde(GemeindeID),
+    FOREIGN KEY (KantonID) REFERENCES Kanton(KantonID),
+    FOREIGN KEY (LandID) REFERENCES Land(LandID),
+    FOREIGN KEY (DateKey) REFERENCES Zeit(DateKey)
 );
 GO

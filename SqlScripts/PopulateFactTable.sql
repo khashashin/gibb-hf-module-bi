@@ -80,9 +80,9 @@ BEGIN TRY
             em.renelec_production_date_from,
             em.renelec_production_date_until
         FROM ERStagingDB.dbo.ERMunicipality AS em
-        INNER JOIN Dim_Gemeinde AS G ON em.bfs_nr = G.BfsNummer
-        INNER JOIN Dim_Kanton AS K ON em.canton = K.Kanton
-        INNER JOIN Dim_Zeit AS Z ON (YEAR(em.energyreporter_date) * 10000) + (MONTH(em.energyreporter_date) * 100) + DAY(em.energyreporter_date) = Z.DateKey;
+        INNER JOIN Gemeinde AS G ON em.bfs_nr = G.BfsNummer
+        INNER JOIN Kanton AS K ON em.canton = K.Kanton
+        INNER JOIN Zeit AS Z ON (YEAR(em.energyreporter_date) * 10000) + (MONTH(em.energyreporter_date) * 100) + DAY(em.energyreporter_date) = Z.DateKey;
 
         PRINT 'Populating Fact_EnergyData Table from Canton Historized Data';
         INSERT INTO Fact_EnergyData (
@@ -157,8 +157,8 @@ BEGIN TRY
             ec.renelec_production_date_from,
             ec.renelec_production_date_until
         FROM ERStagingDB.dbo.ERCanton AS ec
-        INNER JOIN Dim_Kanton AS K ON ec.canton = K.Kanton
-        INNER JOIN Dim_Zeit AS Z ON (YEAR(ec.energyreporter_date) * 10000) + (MONTH(ec.energyreporter_date) * 100) + DAY(ec.energyreporter_date) = Z.DateKey;
+        INNER JOIN Kanton AS K ON ec.canton = K.Kanton
+        INNER JOIN Zeit AS Z ON (YEAR(ec.energyreporter_date) * 10000) + (MONTH(ec.energyreporter_date) * 100) + DAY(ec.energyreporter_date) = Z.DateKey;
 
         PRINT 'Populating Fact_EnergyData Table from Country Historized Data';
         INSERT INTO Fact_EnergyData (
@@ -234,7 +234,7 @@ BEGIN TRY
             en.renelec_production_date_until
         FROM ERStagingDB.dbo.ERCountry AS en
         CROSS JOIN Dim_Land AS L  -- Since there is only one country, we can CROSS JOIN
-        INNER JOIN Dim_Zeit AS Z ON (YEAR(en.energyreporter_date) * 10000) + (MONTH(en.energyreporter_date) * 100) + DAY(en.energyreporter_date) = Z.DateKey;
+        INNER JOIN Zeit AS Z ON (YEAR(en.energyreporter_date) * 10000) + (MONTH(en.energyreporter_date) * 100) + DAY(en.energyreporter_date) = Z.DateKey;
 
     COMMIT TRANSACTION;
     PRINT 'Fact_EnergyData Table populated successfully.';

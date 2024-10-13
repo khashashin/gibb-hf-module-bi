@@ -7,7 +7,7 @@ GO
 BEGIN TRY
     BEGIN TRANSACTION;
 
-        PRINT 'Populating Dim_Gemeinde Table';
+        PRINT 'Populating Gemeinde Table';
         WITH MunicipalityData AS (
             SELECT
                 bfs_nr,
@@ -17,7 +17,7 @@ BEGIN TRY
                 ROW_NUMBER() OVER (PARTITION BY bfs_nr ORDER BY municipality) AS RowNum
             FROM ERStagingDB.dbo.ERMunicipality
         )
-        INSERT INTO Dim_Gemeinde (BfsNummer, Gemeindename, Kanton, Gemeindetyp)
+        INSERT INTO Gemeinde (BfsNummer, Gemeindename, Kanton, Gemeindetyp)
         SELECT
             bfs_nr,
             municipality,
@@ -64,8 +64,8 @@ BEGIN TRY
         ('ZG', 'Zug'),
         ('ZH', 'Zürich');
 
-        PRINT 'Populating Dim_Kanton Table';
-        INSERT INTO Dim_Kanton (Kanton, KantonName)
+        PRINT 'Populating Kanton Table';
+        INSERT INTO Kanton (Kanton, KantonName)
         SELECT DISTINCT
             E.canton AS Kanton,
             K.KantonName
@@ -82,8 +82,8 @@ BEGIN TRY
         INSERT INTO Dim_Land (Land, ISOCode)
         VALUES ('Schweiz', 'CH');
 
-        PRINT 'Populating Dim_Zeit Table';
-        INSERT INTO Dim_Zeit (DateKey, Datum, Tag, Monat, Monatsname, Quartal, Jahr)
+        PRINT 'Populating Zeit Table';
+        INSERT INTO Zeit (DateKey, Datum, Tag, Monat, Monatsname, Quartal, Jahr)
         SELECT
             (YEAR(energyreporter_date) * 10000) + (MONTH(energyreporter_date) * 100) + DAY(energyreporter_date) AS DateKey,
             CAST(energyreporter_date AS DATE) AS Datum,
@@ -111,7 +111,7 @@ BEGIN CATCH
 END CATCH;
 GO
 
-CREATE NONCLUSTERED INDEX IX_Dim_Gemeinde_BfsNummer ON Dim_Gemeinde(BfsNummer);
-CREATE NONCLUSTERED INDEX IX_Dim_Kanton_Kanton ON Dim_Kanton(Kanton);
-CREATE NONCLUSTERED INDEX IX_Dim_Zeit_DateKey ON Dim_Zeit(DateKey);
+CREATE NONCLUSTERED INDEX IX_Gemeinde_BfsNummer ON Gemeinde(BfsNummer);
+CREATE NONCLUSTERED INDEX IX_Kanton_Kanton ON Kanton(Kanton);
+CREATE NONCLUSTERED INDEX IX_Zeit_DateKey ON Zeit(DateKey);
 GO

@@ -4,8 +4,8 @@ GO
 PRINT 'Create Dimension Tables';
 GO
 
-PRINT 'Creating Dim_Gemeinde Table';
-CREATE TABLE Dim_Gemeinde (
+PRINT 'Creating Gemeinde Table';
+CREATE TABLE Gemeinde (
     GemeindeID INT IDENTITY(1,1) PRIMARY KEY,
     BfsNummer INT NOT NULL UNIQUE,
     Gemeindename NVARCHAR(255) NOT NULL,
@@ -14,24 +14,24 @@ CREATE TABLE Dim_Gemeinde (
 );
 GO
 
-PRINT 'Creating Dim_Kanton Table';
-CREATE TABLE Dim_Kanton (
+PRINT 'Creating Kanton Table';
+CREATE TABLE Kanton (
     KantonID INT IDENTITY(1,1) PRIMARY KEY,
     Kanton NVARCHAR(2) NOT NULL UNIQUE,
     KantonName NVARCHAR(255) NOT NULL
 );
 GO
 
-PRINT 'Creating Dim_Land Table';
-CREATE TABLE Dim_Land (
+PRINT 'Creating Land Table';
+CREATE TABLE Land (
     LandID INT IDENTITY(1,1) PRIMARY KEY,
     Land NVARCHAR(255) NOT NULL,
     ISOCode NVARCHAR(2) NOT NULL UNIQUE
 );
 GO
 
-PRINT 'Creating Dim_Zeit Table';
-CREATE TABLE Dim_Zeit (
+PRINT 'Creating Zeit Table';
+CREATE TABLE Zeit (
     DateKey INT PRIMARY KEY, -- Format YYYYMMDD
     Datum DATE NOT NULL,
     Tag INT NOT NULL,
