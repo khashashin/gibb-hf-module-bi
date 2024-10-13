@@ -6,37 +6,10 @@
     <Name>EnergieReporter Multidimensional.database</Name>
     <FullPath>EnergieReporter Multidimensional.database</FullPath>
   </Database>
-  <DataSources>
-    <ProjectItem>
-      <Name>ER Data Warehouse DB.ds</Name>
-      <FullPath>ER Data Warehouse DB.ds</FullPath>
-    </ProjectItem>
-  </DataSources>
-  <DataSourceViews>
-    <ProjectItem>
-      <Name>ER Data Warehouse DB.dsv</Name>
-      <FullPath>ER Data Warehouse DB.dsv</FullPath>
-    </ProjectItem>
-  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options>
-        <ConnectionMappings>
-          <ConfigurationSetting>
-            <Id>ER Data Warehouse DB</Id>
-            <Name>ER Data Warehouse DB</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=WIV11-VMWP1\DATAWAREHOUSE;Integrated Security=SSPI;Initial Catalog=ERDataWarehouseDB</Value>
-          </ConfigurationSetting>
-        </ConnectionMappings>
-        <ConnectionSecurityMappings>
-          <ConfigurationSetting>
-            <Id>ER Data Warehouse DB</Id>
-            <Name>ER Data Warehouse DB</Name>
-            <Value xsi:type="xsd:int">0</Value>
-          </ConfigurationSetting>
-        </ConnectionSecurityMappings>
-      </Options>
+      <Options />
     </Configuration>
   </Configurations>
 </Project>
