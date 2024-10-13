@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="424403ba-0f6c-4efc-9c4b-e9276624c062" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="478ba6d3-2509-416c-be23-d326b4fb4ffd" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Gemeinde</ID>
   <Name>Gemeinde</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7031" scrolltop="-12713" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="17277" y="28575" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7031" scrolltop="-12713" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="17277" y="28575" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Gemeinde" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3175" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Gemeinde" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3175" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000670c00004d0c0000" />
             </control>
@@ -88,7 +88,7 @@
               <Attributes>
                 <Attribute Id="Gemeindename" />
               </Attributes>
-              <Position x="350" y="20" />
+              <Position x="185" y="68" />
             </Shape>
           </Shapes>
         </DiagramLayout>
@@ -97,56 +97,60 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="d6677d40-d991-4f9a-8f67-0bf378df1528">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="f2a93bc9-c09b-4bd1-a255-663402a643d8">
     <DataSourceViewID>Energie Reporter</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="62b8041e-bb3d-4bc3-80a6-9658b468e0da">
+  <ErrorConfiguration dwd:design-time-name="ceb975db-3a50-4cf7-8810-d4783c274125">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="2e6c331f-10d9-4839-8e35-89abe197646c">
+    <Attribute dwd:design-time-name="c0be9b88-9405-472a-bfc2-7fc6d2d06203">
       <ID>Gemeinde ID</ID>
       <Name>Gemeinde ID</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="47472162-9ad3-42b3-adf0-3d57199fca17">
+        <KeyColumn dwd:design-time-name="65594d69-6226-4cf2-8524-59b9bb0d3ad7">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="6bd57047-54b8-4c8a-8b91-02fbcbcca013">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="be367be3-c3b1-4bf7-9158-30d7a8cddc56">
             <TableID>dbo_Gemeinde</TableID>
             <ColumnID>GemeindeID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="aa6c6b51-c0a8-4d00-a72a-d2f51b50e333">
+        <AttributeRelationship dwd:design-time-name="a1fa7d41-26fe-4b4f-8c46-4e822bb22a9f">
           <AttributeID>Bfs Nummer</AttributeID>
           <Name>Bfs Nummer</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="3030e13f-d92b-4e29-abbc-e32fae7e740e">
-          <AttributeID>Gemeindetyp</AttributeID>
-          <Name>Gemeindetyp</Name>
+        <AttributeRelationship dwd:design-time-name="3378c188-42d4-4d1a-8bf2-e5bdb20b6e1d">
+          <AttributeID>Gemeindename</AttributeID>
+          <Name>Gemeindename</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="8922541c-1f1f-4439-8cd8-8e89e249bd88">
+        <AttributeRelationship dwd:design-time-name="f1feb345-7a60-437d-92db-22d6ed2813b0">
           <AttributeID>Kanton</AttributeID>
           <Name>Kanton</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d37a326a-19c7-47f3-b124-ddd33a03c96d">
+          <AttributeID>Gemeindetyp</AttributeID>
+          <Name>Gemeindetyp</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="dd7f1aff-6fbc-485b-a0fe-521c0cbc374a">
+    <Attribute dwd:design-time-name="6403ad68-a4fd-40ec-b6cc-b8db63fff160">
       <ID>Bfs Nummer</ID>
       <Name>Bfs Nummer</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0568aafe-c917-4774-a808-96bc0dc4e4aa">
+        <KeyColumn dwd:design-time-name="82c91a86-c7ea-47d0-9d16-9eadd3d82b84">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f221c687-efbe-4367-937d-461d18305ffe">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5a261239-d498-42f7-b28c-2822a3275fc3">
             <TableID>dbo_Gemeinde</TableID>
             <ColumnID>BfsNummer</ColumnID>
           </Source>
@@ -156,14 +160,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="d7e8cd8a-4481-4980-b619-61fdb5c7ada7">
+    <Attribute dwd:design-time-name="bb0fd7c2-fd72-41d1-8aee-aa2a295be953">
       <ID>Gemeindename</ID>
       <Name>Gemeindename</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="f0a628cd-f59b-4eaa-bffd-7b1c09e1e857">
+        <KeyColumn dwd:design-time-name="a0b760e1-6c64-4cdc-85bc-25ef3a377590">
           <DataType>WChar</DataType>
           <DataSize>255</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d19c8ad2-259f-4f9c-b550-dedbd309bff0">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f4bc4d65-7952-4a9d-9c57-2d5706f36799">
             <TableID>dbo_Gemeinde</TableID>
             <ColumnID>Gemeindename</ColumnID>
           </Source>
@@ -173,36 +177,30 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="97b0c032-f9a8-4b1d-9610-92458f9d35a6">
+    <Attribute dwd:design-time-name="7610e398-d1d8-4063-b7ab-cdde83446449">
       <ID>Kanton</ID>
       <Name>Kanton</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="5e2b7560-0424-4a79-a19e-50222fec2029">
+        <KeyColumn dwd:design-time-name="1cef1ffd-b229-40a7-bbad-bf6716d390ff">
           <DataType>WChar</DataType>
           <DataSize>2</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="16f5a196-b949-44d8-974e-09f2bd353b1e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="429aa1fe-1f53-4428-9eda-3939eb17e822">
             <TableID>dbo_Gemeinde</TableID>
             <ColumnID>Kanton</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="50bb671f-ef5d-44aa-8faa-f2ad02e02b5d">
-          <AttributeID>Gemeindename</AttributeID>
-          <Name>Gemeindename</Name>
-        </AttributeRelationship>
-      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="8fe3ac00-89db-4502-a3bb-b4cfc11ef9e5">
+    <Attribute dwd:design-time-name="33952bc9-84c2-4ed2-a7a3-d80f1c6c3b7a">
       <ID>Gemeindetyp</ID>
       <Name>Gemeindetyp</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e3b19b1d-d641-4570-b9b5-6152ad7b1c3d">
+        <KeyColumn dwd:design-time-name="6d23af58-0c89-433b-abf8-f3683c79a76d">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="425ead0e-ea44-4512-a798-5344ab334a3b">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="30e82b86-ec02-467a-825e-33e43acb59e1">
             <TableID>dbo_Gemeinde</TableID>
             <ColumnID>Gemeindetyp</ColumnID>
           </Source>
@@ -214,16 +212,16 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="012b9180-3e34-461a-885f-e0bc7f3a7cb8">
+    <Hierarchy dwd:design-time-name="fe99ed65-0802-4347-8256-7db45328d3b5">
       <ID>Hierarchy</ID>
       <Name>Geografische Hierarchie</Name>
       <Levels>
-        <Level dwd:design-time-name="e18489fc-d712-4ddf-8b6c-85230522a4e6">
+        <Level dwd:design-time-name="0dd789ad-a77c-4b88-839a-5b3384d23dc8">
           <ID>Kanton</ID>
           <Name>Kanton</Name>
           <SourceAttributeID>Kanton</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="bef7ccc0-23e7-4653-9806-66e9f61f7893">
+        <Level dwd:design-time-name="2eb2c148-c473-43cc-9ead-51329947905c">
           <ID>Gemeindename</ID>
           <Name>Gemeindename</Name>
           <SourceAttributeID>Gemeindename</SourceAttributeID>

@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b0259246-ce1e-4df5-a863-984bc607f881" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4a49038d-f97d-4df1-8c75-bc195c8fb992" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Energie Reporter</ID>
   <Name>Energie Reporter</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="10" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-16638" scrolltop="-6860" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="50774" y="28575" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="20" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-16638" scrolltop="-6860" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="50774" y="22622" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="EnergyData" left="5420" top="4702" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="7779" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="EnergyData" left="5420" top="4702" logicalid="10" controlid="1" masterid="0" hint1="0" hint2="0" width="7779" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000631e000088130000" />
             </control>
@@ -30,7 +30,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Kanton" left="7809" top="12102" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Kanton" left="7809" top="12102" logicalid="11" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000fe080000" />
             </control>
@@ -41,7 +41,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Gemeinde" left="15599" top="5627" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3175" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Gemeinde" left="15599" top="5627" logicalid="12" controlid="3" masterid="0" hint1="0" hint2="0" width="3175" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000670c00004d0c0000" />
             </control>
@@ -52,7 +52,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Land" left="7809" top="0" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Land" left="7809" top="0" logicalid="13" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000fe080000" />
             </control>
@@ -63,7 +63,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Zeit" left="20" top="5204" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Zeit" left="20" top="5204" logicalid="14" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00009b0f0000" />
             </control>
@@ -74,7 +74,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="12899" top="6802" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="12899" top="6802" logicalid="15" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -94,7 +94,7 @@
               <point x="13199" y="7202" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2720" top="6802" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2720" top="6802" logicalid="16" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -114,7 +114,7 @@
               <point x="5420" y="7202" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8910" top="9402" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8910" top="9402" logicalid="17" controlid="8" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -132,7 +132,7 @@
               <point x="9309" y="9702" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8910" top="1803" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8910" top="1803" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -189,101 +189,101 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="bd15262c-b3c2-40d6-90fe-1c70dea3b8dc">
+    <Dimension dwd:design-time-name="b65b822d-97aa-493b-9b03-a193a4746bba">
       <ID>Gemeinde</ID>
       <Name>Gemeinde</Name>
       <DimensionID>Gemeinde</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="3e702578-b71d-4ab0-8554-ea817f9835a8">
+        <Attribute dwd:design-time-name="6aedf0bc-453d-4d18-b055-e5ce73c8dd52">
           <AttributeID>Gemeinde ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="85bd47ef-71e6-43f3-b787-feb321b970d2">
+        <Attribute dwd:design-time-name="b30111dd-b460-4180-806b-7e27e7874922">
           <AttributeID>Bfs Nummer</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="cac72041-e90f-4829-9d75-42b82c505e1f">
+        <Attribute dwd:design-time-name="fc925193-c0a8-43ad-b5f9-6db4bf45bde1">
           <AttributeID>Gemeindename</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="fa38260b-ac69-48d4-8b37-97d20295ccb3">
+        <Attribute dwd:design-time-name="b2fde41a-27e8-478e-ba01-cc32025bc656">
           <AttributeID>Kanton</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d827eed2-aa93-4879-9d3d-d688aab3ac13">
+        <Attribute dwd:design-time-name="4d9e9912-1fe5-4104-9bf8-03054ad9b692">
           <AttributeID>Gemeindetyp</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="146f9d62-a59e-410c-90b1-784a93389360">
+        <Hierarchy dwd:design-time-name="b81e3870-41e6-4a9d-8fa2-abc4d54c7374">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="00ff9d86-175b-49a4-8198-a10edca4ab56">
+    <Dimension dwd:design-time-name="a78ee57b-18af-4975-898b-7cf99f749e43">
       <ID>Zeit</ID>
       <Name>Zeit</Name>
       <DimensionID>Zeit</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="ea8c94b3-f5c6-489b-8d5f-775d3ec78d5f">
+        <Attribute dwd:design-time-name="a3da49b2-6dcd-4f2d-89a8-3330d0d8f9f9">
           <AttributeID>Date Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7fb60a84-583d-4432-b4e7-eadc82ba3ac4">
+        <Attribute dwd:design-time-name="cf190170-269b-489b-be36-0bda741746d1">
           <AttributeID>Datum</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0b109fb1-34d6-446c-8895-e2633a0aa01e">
+        <Attribute dwd:design-time-name="13f4d1e3-36a3-43bc-9611-9491f7ce6c1d">
           <AttributeID>Tag</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9ff6c9db-2883-4fc2-b503-239b9dd98e9d">
+        <Attribute dwd:design-time-name="83aa6a57-f956-4b20-8a86-cdfdda3c0a41">
           <AttributeID>Monat</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9b00dea7-53e3-4171-a440-fa6482353f4e">
+        <Attribute dwd:design-time-name="f4705bed-fd30-4e4d-9fbd-de6b9f20f1d9">
           <AttributeID>Monatsname</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7c0f7ee9-2a3c-46e1-95a8-8b08782b9735">
+        <Attribute dwd:design-time-name="ecade839-03ee-4203-9ada-b0280ccac899">
           <AttributeID>Quartal</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ab04f047-2851-422a-94c8-a0151dd86e13">
+        <Attribute dwd:design-time-name="9eab7fd2-cad1-45ff-a957-20c364ef8e7d">
           <AttributeID>Jahr</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="78574396-f94d-4239-a7b3-1995ae61182e">
+        <Hierarchy dwd:design-time-name="d2253926-bea8-4d7b-b38c-1bb77e21cf7e">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="34ef8cf1-4190-4d5f-bf39-2ccef98ced39">
+    <Dimension dwd:design-time-name="e7a9f00f-5e5d-473e-bbd0-1c0a62bd7638">
       <ID>Kanton</ID>
       <Name>Kanton</Name>
       <DimensionID>Kanton</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="5a1635be-75f5-47be-940d-13f386b64b36">
+        <Attribute dwd:design-time-name="84a3e608-41bc-4928-91a2-cca707733565">
           <AttributeID>Kanton ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5e553fa4-7396-4700-911e-ca7c132a2264">
+        <Attribute dwd:design-time-name="f337703d-2b37-45d8-957c-36c6c5d730c5">
           <AttributeID>Kanton</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1cf9d490-9c4d-4bdc-ac4a-6cc59944baae">
+        <Attribute dwd:design-time-name="477e3e7a-feea-4d03-9f76-9cf8e670d659">
           <AttributeID>Kanton Name</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="d63c9c39-0f8e-49cb-962a-91298c48f973">
+    <Dimension dwd:design-time-name="7b0e0d6b-ba27-41fb-8347-0d6d93913f12">
       <ID>Land</ID>
       <Name>Land</Name>
       <DimensionID>Land</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="b561765e-1555-4cba-97cf-38ca5b4b9728">
+        <Attribute dwd:design-time-name="86f77f74-9238-46eb-a1ac-a4e1ef9b4d7c">
           <AttributeID>Land ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d5d0f87f-ac1a-4743-b23b-9c187827b3b0">
+        <Attribute dwd:design-time-name="91253f83-bcd7-4898-91ce-370ca7e0394f">
           <AttributeID>Land</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="24992cf9-fc81-4ee6-a3cd-f62447dcc61e">
+        <Attribute dwd:design-time-name="3f6e8e72-2a10-448b-b441-019aa6bdf5a9">
           <AttributeID>ISO Code</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="ef83309f-43ab-4d15-af96-2492ca75d0fb">
+    <MeasureGroup dwd:design-time-name="9a623179-3b62-494f-8896-873ffe86f1d9">
       <ID>Energy Data</ID>
       <Name>Energy Data</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -291,256 +291,256 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="216f51cb-c8ac-457e-a176-707a4fedbc6b">
+        <Measure dwd:design-time-name="5a9b250b-df3f-440e-a4e3-e7427fce7a9a">
           <ID>Electric Car Share</ID>
           <Name>Electric Car Share</Name>
-          <Source dwd:design-time-name="9028afd7-0bc5-4779-9517-07c88ff93c77">
+          <Source dwd:design-time-name="c7d167d0-351c-4bdd-ad89-c8c8ec06f50f">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="bd3c6c67-9cd6-4255-966e-2d7426882e38">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8f833d39-3feb-4695-8b33-44d3fc135643">
               <TableID>dbo_EnergyData</TableID>
               <ColumnID>ElectricCarShare</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="229e4a99-cb19-45f0-b0ba-42dadaa7c481">
+        <Measure dwd:design-time-name="88e65eed-97c4-4a4d-9403-48413825b0ea">
           <ID>Electric Car Count</ID>
           <Name>Electric Car Count</Name>
-          <Source dwd:design-time-name="a9db453a-fef0-4d71-8f5b-b1e348907634">
+          <Source dwd:design-time-name="31c8a05f-2894-4ba6-bccd-fc8c56b2e89f">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="a73c6e77-d44c-4001-8b3d-ed602ededb14">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4244b55b-0ded-45b5-8fea-ae1cad95e4bf">
               <TableID>dbo_EnergyData</TableID>
               <ColumnID>ElectricCarCount</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="56c35f8a-74fb-456a-9097-f98832698e3e">
+        <Measure dwd:design-time-name="c77ea61d-1201-4d1a-a510-3ebf0b29da55">
           <ID>Electric Car Charging Spot Count</ID>
           <Name>Electric Car Charging Spot Count</Name>
-          <Source dwd:design-time-name="344884bb-954e-4aa2-afc9-f81d1d9b25a5">
+          <Source dwd:design-time-name="891de34b-2699-410a-aeef-2921b215481c">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="f27aa7a1-806d-4a5a-9eac-f1a854a75126">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="660c1920-e06b-4a3d-b270-25767dd2b453">
               <TableID>dbo_EnergyData</TableID>
               <ColumnID>ElectricCarChargingSpotCount</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="b313481b-59aa-4837-be7f-9e1e8df44d06">
+        <Measure dwd:design-time-name="825b7043-882a-4f4e-87f6-c94bb9a185a7">
           <ID>Electric Cars Per Charging Spot</ID>
           <Name>Electric Cars Per Charging Spot</Name>
-          <Source dwd:design-time-name="db9a0ef0-ebf8-4293-8a78-4339e5029d87">
+          <Source dwd:design-time-name="0c08cd09-776a-477a-9180-3ab450759612">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="f617b8c3-6106-4a88-8041-2d848323280e">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1442b688-4eae-4df4-a707-6579a23e038b">
               <TableID>dbo_EnergyData</TableID>
               <ColumnID>ElectricCarsPerChargingSpot</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="92d95ad1-c006-4cb2-ad54-28f7d0f8f123">
+        <Measure dwd:design-time-name="05a118fb-978c-411a-ae4f-85a3b8e34a47">
           <ID>Solar Potential Usage</ID>
           <Name>Solar Potential Usage</Name>
-          <Source dwd:design-time-name="afb6c665-5c1f-4739-a0cd-7c134d96a9be">
+          <Source dwd:design-time-name="2539ac10-61e7-4e57-bac8-3965a6b19163">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="9948d55b-e23e-4c5a-b679-ee4c2b5b0ca3">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3a2a032d-9aca-47cd-9f2d-7fda54e8382b">
               <TableID>dbo_EnergyData</TableID>
               <ColumnID>SolarPotentialUsage</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="d8138bee-fec1-4dff-a579-89490dfcfff4">
+        <Measure dwd:design-time-name="a3ccf756-9580-4ba9-966f-0c987176c1b1">
           <ID>Solar Power Installed K Wp</ID>
           <Name>Solar Power Installed K Wp</Name>
-          <Source dwd:design-time-name="78f87245-cc6c-4937-adf6-d35afa5bd8c5">
+          <Source dwd:design-time-name="32d4a0f8-31ce-4b30-a4bc-cad742efc14c">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="d593f20e-67b9-4c9a-83cc-082281d3d687">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9ecdbc7e-9063-49ba-b196-ca487b38a1dd">
               <TableID>dbo_EnergyData</TableID>
               <ColumnID>SolarPowerInstalledKWp</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="a5113804-4778-4397-aaf9-a0f1014c47d8">
+        <Measure dwd:design-time-name="15c05a71-0ed7-42e8-8593-a60842f6f489">
           <ID>Renewable Heating Share</ID>
           <Name>Renewable Heating Share</Name>
-          <Source dwd:design-time-name="6f67e997-c00a-4064-b10a-157278f53533">
+          <Source dwd:design-time-name="ab348ab6-897a-4d7b-a3d6-3795ba02272b">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="a024f978-89e8-48c2-a33f-7fde612edd22">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="522f5902-7051-4169-b8f4-1591c3261a1d">
               <TableID>dbo_EnergyData</TableID>
               <ColumnID>RenewableHeatingShare</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="862e8b6a-fa6a-4f35-92d6-241d9fc912ec">
+        <Measure dwd:design-time-name="f74eb775-6ed5-4281-97e6-e101e902fcdb">
           <ID>Renewable Heating Count</ID>
           <Name>Renewable Heating Count</Name>
-          <Source dwd:design-time-name="5b9fe1ad-ca74-4829-a9de-80cbdb84404d">
+          <Source dwd:design-time-name="56817bc4-c90e-4c4d-b492-307344fb077b">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="dd5b079e-ac32-458a-88f1-ef07f96c30f0">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b093d2b4-6574-4043-8728-c0f5e61145c8">
               <TableID>dbo_EnergyData</TableID>
               <ColumnID>RenewableHeatingCount</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="34d7a5c5-ffa7-446b-8183-8632a6225116">
+        <Measure dwd:design-time-name="64f11e3e-7a64-4542-9daa-58a1beb631b6">
           <ID>Non Renewable Heating Count</ID>
           <Name>Non Renewable Heating Count</Name>
-          <Source dwd:design-time-name="bd0d82a1-8ae0-48be-9cd4-6c2ef1bb48f1">
+          <Source dwd:design-time-name="4c429a23-ae53-4463-9cc8-b8039698f7e8">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="289a4cdb-28c5-4f18-9268-f8c05c4d5f9f">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="987630c5-e9fb-4b00-82a9-3a967aeb1de9">
               <TableID>dbo_EnergyData</TableID>
               <ColumnID>NonRenewableHeatingCount</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="fb0da8d9-21be-42c7-a6a2-ebbb194074c1">
+        <Measure dwd:design-time-name="1fdf1027-4c3a-4008-ae26-b167cb502787">
           <ID>No Heating Count</ID>
           <Name>No Heating Count</Name>
-          <Source dwd:design-time-name="03637bdb-8805-4c13-872e-b84eb14b652c">
+          <Source dwd:design-time-name="b73c5959-6f2c-4268-a823-eae9d204f171">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="93699451-323b-43fa-8eec-a2f305bad003">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e9290fcd-67ee-45e4-8b64-134226773693">
               <TableID>dbo_EnergyData</TableID>
               <ColumnID>NoHeatingCount</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="49ece866-88c9-492c-9a2e-0ea8b8a28f3d">
+        <Measure dwd:design-time-name="6e36940b-abda-4a93-8ea4-592a65948661">
           <ID>Renewable Heating Share Coverage</ID>
           <Name>Renewable Heating Share Coverage</Name>
-          <Source dwd:design-time-name="e91e60f9-8098-4e57-af87-3935ac58fb6c">
+          <Source dwd:design-time-name="52289aef-5015-45f8-b4c7-f5d26b825334">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="15877f7b-08c6-4083-b976-dec25790b9de">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9b1d1667-fefb-452e-a9cf-a6e83b7cbf45">
               <TableID>dbo_EnergyData</TableID>
               <ColumnID>RenewableHeatingShareCoverage</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="f9b820f4-2885-4efa-a0e7-1e24e0a7fa41">
+        <Measure dwd:design-time-name="21f7ca6f-7a2a-40c0-a9b9-dbc6a434ada9">
           <ID>Elec Consumption M Wh Per Year Per Capita</ID>
           <Name>Elec Consumption M Wh Per Year Per Capita</Name>
-          <Source dwd:design-time-name="566e5495-dcc4-4102-a4b2-e650924b92d0">
+          <Source dwd:design-time-name="17975ff5-4949-41ad-adbe-a00965c410ae">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="2d5fab2c-ffdd-4f78-a05e-63eba0a8a26c">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="993581f6-c654-426e-992b-437683347292">
               <TableID>dbo_EnergyData</TableID>
               <ColumnID>ElecConsumptionMWhPerYearPerCapita</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="fe539891-754c-4de8-bc18-b0d479fd87da">
+        <Measure dwd:design-time-name="cba32f9a-144d-45bf-a83f-0fb5d8f6d63e">
           <ID>Elec Consumption Households M Wh Per Year Per Capita</ID>
           <Name>Elec Consumption Households M Wh Per Year Per Capita</Name>
-          <Source dwd:design-time-name="3f732b18-e8f3-4a42-b612-95fda368b8d4">
+          <Source dwd:design-time-name="f6e2be09-f065-40d6-a2f2-e59c1ff4a548">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="94a4e072-62da-4af2-8b30-1fc483fa4998">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f2212991-5c64-444f-9034-bfd1c845bd14">
               <TableID>dbo_EnergyData</TableID>
               <ColumnID>ElecConsumptionHouseholdsMWhPerYearPerCapita</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="2f51d7c8-4723-470c-bd1b-c3520ba5beee">
+        <Measure dwd:design-time-name="4b9da534-ebb3-47e0-a720-480112b58c31">
           <ID>Elec Consumption M Wh Per Year</ID>
           <Name>Elec Consumption M Wh Per Year</Name>
-          <Source dwd:design-time-name="c4945cb9-076d-4e9a-8eb8-db55d84fa828">
+          <Source dwd:design-time-name="3cf2f5fb-c988-42f2-9be6-7b8c71845e98">
             <DataType>BigInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="79734a55-798d-48df-b773-05660c3606a1">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1fdbcfd9-4ac9-4084-8f06-916f564c22a3">
               <TableID>dbo_EnergyData</TableID>
               <ColumnID>ElecConsumptionMWhPerYear</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="832493ff-5087-40ee-917e-8ce94bc19c7a">
+        <Measure dwd:design-time-name="6efe44ef-5420-4def-8535-0cbe1bf6c019">
           <ID>Elec Consumption Households M Wh Per Year</ID>
           <Name>Elec Consumption Households M Wh Per Year</Name>
-          <Source dwd:design-time-name="0bfcce26-cb9b-40ad-8fd0-52bcf61eae82">
+          <Source dwd:design-time-name="9c302f4b-b332-4001-9594-09cfd27aeca6">
             <DataType>BigInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="40cec3ff-9e70-45e3-a14f-a14bad99d52f">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b24fe7e9-61a9-409a-982f-c0e6f81bdf9d">
               <TableID>dbo_EnergyData</TableID>
               <ColumnID>ElecConsumptionHouseholdsMWhPerYear</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="7d351dc3-d041-46e0-89ef-a66325cf52a6">
+        <Measure dwd:design-time-name="b421248f-c7f2-49ff-b73e-de614151f5f8">
           <ID>Renelec Production M Wh Per Year Per Capita</ID>
           <Name>Renelec Production M Wh Per Year Per Capita</Name>
-          <Source dwd:design-time-name="bdd175fa-8cf1-4cf3-9455-2b00fc74e49b">
+          <Source dwd:design-time-name="936bca75-eb9b-455f-841d-c3415540a122">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="718bcf27-a989-403a-895a-bd8a87fcb99c">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ec8c6010-1eb8-4450-953c-c5e10daa6cea">
               <TableID>dbo_EnergyData</TableID>
               <ColumnID>RenelecProductionMWhPerYearPerCapita</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="72b5230a-a824-421b-b48a-af0cbd2b6d93">
+        <Measure dwd:design-time-name="14e8f25e-75c6-46fe-b2ad-87de257f8f25">
           <ID>Renelec Production M Wh Per Year</ID>
           <Name>Renelec Production M Wh Per Year</Name>
-          <Source dwd:design-time-name="6fc22bf8-7fa8-478a-ba53-1ee397c913d0">
+          <Source dwd:design-time-name="81bdb8e3-fee4-411c-90f6-2e1e4996e38f">
             <DataType>BigInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="9b257a3a-4e70-4c29-ba93-657d89bf1461">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="22f6dd15-04bc-49db-b588-b82f377e920b">
               <TableID>dbo_EnergyData</TableID>
               <ColumnID>RenelecProductionMWhPerYear</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="243039e7-ef1e-4dce-a20a-a01de3b42d59">
+        <Measure dwd:design-time-name="d9158172-f151-4bfb-b6da-14723cb35d40">
           <ID>Renelec Production Water M Wh Per Year</ID>
           <Name>Renelec Production Water M Wh Per Year</Name>
-          <Source dwd:design-time-name="e1b40322-224b-4f4c-be16-7fd3a631c665">
+          <Source dwd:design-time-name="dcf6c2eb-c7d4-4eec-8241-5bc80cbc1201">
             <DataType>BigInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="8f82f572-5ac1-4c86-920d-6042d82dcbfa">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6c38eb65-7b96-4996-b750-6553fcbd6251">
               <TableID>dbo_EnergyData</TableID>
               <ColumnID>RenelecProductionWaterMWhPerYear</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="e41de330-3eec-49f3-b713-4bc161fab2e3">
+        <Measure dwd:design-time-name="4586cb27-2dda-4d34-9079-e3b21fda1f94">
           <ID>Renelec Production Solar M Wh Per Year</ID>
           <Name>Renelec Production Solar M Wh Per Year</Name>
-          <Source dwd:design-time-name="b387d131-cf7f-4014-845b-63e36f6210d0">
+          <Source dwd:design-time-name="51b82524-e652-491e-b29f-6cc186d898ed">
             <DataType>BigInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="c0a51bf7-ae4b-4fe4-a4e5-d30ac029a713">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="25835695-4fd6-4909-a800-21db2e7e435a">
               <TableID>dbo_EnergyData</TableID>
               <ColumnID>RenelecProductionSolarMWhPerYear</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="931ffb2c-a29f-4082-89a1-c1d846ae0509">
+        <Measure dwd:design-time-name="e5fdad22-c2eb-4dc9-8b8b-3f4b3e9216e6">
           <ID>Renelec Production Wind M Wh Per Year</ID>
           <Name>Renelec Production Wind M Wh Per Year</Name>
-          <Source dwd:design-time-name="44bbcb3a-8ace-4ff7-b69b-17266b84d23b">
+          <Source dwd:design-time-name="dbb5826a-1129-4888-94f7-e7f3bfc64cf8">
             <DataType>BigInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="04537c1a-da9d-4440-b965-b40ea1205882">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="236f2d81-a200-435b-9c4c-24c50e8d85b4">
               <TableID>dbo_EnergyData</TableID>
               <ColumnID>RenelecProductionWindMWhPerYear</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="bef1f8dc-7e8c-4eac-98f3-344824549657">
+        <Measure dwd:design-time-name="3cb91ad7-947a-4b6e-ac27-17aaa3b28b18">
           <ID>Renelec Production Biomass M Wh Per Year</ID>
           <Name>Renelec Production Biomass M Wh Per Year</Name>
-          <Source dwd:design-time-name="1d9bdacb-bcd9-4c7a-a740-3b089e90544d">
+          <Source dwd:design-time-name="92fe258f-dba3-433c-91e4-d5b498c4757f">
             <DataType>BigInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="553c03ed-3cf5-4296-b9ce-d0fabdbaf45a">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9de2b312-813b-4938-9e2d-1e73ff453ff0">
               <TableID>dbo_EnergyData</TableID>
               <ColumnID>RenelecProductionBiomassMWhPerYear</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="8913d884-d3fd-4604-8b6d-c54735e90d81">
+        <Measure dwd:design-time-name="c85d70d1-839a-40b9-8c56-4da439cd13d7">
           <ID>Renelec Production Waste M Wh Per Year</ID>
           <Name>Renelec Production Waste M Wh Per Year</Name>
-          <Source dwd:design-time-name="1166bbc0-07eb-4f9d-a5b7-4beaab1af39c">
+          <Source dwd:design-time-name="7d067128-68b6-4364-8455-c2cf5f624777">
             <DataType>BigInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="c1783647-6041-48c6-9225-17fab3139baf">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="18b9aa2f-82c0-4441-b121-9dfa89b11136">
               <TableID>dbo_EnergyData</TableID>
               <ColumnID>RenelecProductionWasteMWhPerYear</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="ae612d99-02ff-4fa0-b5cd-580c5c1f3e18">
+        <Measure dwd:design-time-name="032bf8a2-1a09-46a8-84ae-3e4a7dba216b">
           <ID>Energy Data Count</ID>
           <Name>Energy Data Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="c34b61d5-02c1-4701-aa01-5f09296cef29">
+          <Source dwd:design-time-name="48bda9e4-9f43-4948-8c84-1e3cbde4a1be">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="17ecd5ab-578c-430f-b47b-cbd01f0b9408">
+            <Source xsi:type="RowBinding" dwd:design-time-name="15453965-50f7-4f80-82ca-07ad13de2a1a">
               <TableID>dbo_EnergyData</TableID>
             </Source>
           </Source>
@@ -549,16 +549,16 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ae379f39-867c-48da-aa30-5696de48ba1b">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e86f0cb7-e765-40c2-ab38-1f351ac68355">
           <CubeDimensionID>Gemeinde</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="e41b9298-6571-4595-b762-40ccef89f258">
+            <Attribute dwd:design-time-name="5f49ba7f-a74d-47d1-bc15-4017207b3880">
               <AttributeID>Gemeinde ID</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="9724c313-3a9a-4369-96b2-a0b2a487baaa">
+                <KeyColumn dwd:design-time-name="7056a38a-9a23-48ac-90e4-a22e8330bd68">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b8bc6466-8d94-4dfb-a701-15c197315fa2">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="725eb336-c15f-4e18-99ff-5b86acde311c">
                     <TableID>dbo_EnergyData</TableID>
                     <ColumnID>GemeindeID</ColumnID>
                   </Source>
@@ -568,15 +568,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e2717ff3-8d99-4208-8511-13ac04467324">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0b92128a-2abf-4391-b19f-fff87370e11d">
           <CubeDimensionID>Zeit</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="46966617-2406-4bb5-bba6-30f0f0f75635">
+            <Attribute dwd:design-time-name="8da15de0-a194-418d-a1a5-4d4b5857591a">
               <AttributeID>Date Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="b933af8a-9faf-4697-a130-663b248b49ff">
+                <KeyColumn dwd:design-time-name="2c7ffe26-72b0-45ff-a55f-7ca196a6b121">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="92f971cf-598e-4689-aafe-f26949190cdb">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="33507557-aad9-49f2-a171-dbd3e45620f6">
                     <TableID>dbo_EnergyData</TableID>
                     <ColumnID>DateKey</ColumnID>
                   </Source>
@@ -586,16 +586,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2d36497a-5fb1-4d58-b7ed-8e63083bf866">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0ed74c0a-1b0e-48a8-a526-4477f280e61d">
           <CubeDimensionID>Kanton</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="765b32b0-1769-4d59-a25b-2d1f8086c3f7">
+            <Attribute dwd:design-time-name="c75d5332-6e6d-47e5-b9cb-c54b1d59541f">
               <AttributeID>Kanton ID</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="151f97a0-99c2-4598-9790-bbd9e87a12ff">
+                <KeyColumn dwd:design-time-name="eac59ba6-e9ec-470b-b8c1-bbd01f9e5469">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a9ce4a4f-3a8a-485e-bd53-e4de1b3a394b">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1024b53c-eb29-4bce-9ca6-303a3cf8a1e3">
                     <TableID>dbo_EnergyData</TableID>
                     <ColumnID>KantonID</ColumnID>
                   </Source>
@@ -605,16 +605,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e918f4fa-2385-494e-ad4d-7fce7406ce84">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2507d950-2afc-4792-8445-6c98c868b762">
           <CubeDimensionID>Land</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="33303ecf-9ed7-4ebf-aad1-b28c72390e88">
+            <Attribute dwd:design-time-name="4a7d1f4e-30d7-4112-a7d7-0975158bc883">
               <AttributeID>Land ID</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="86250dd0-dadb-461f-bef4-c70484dac11f">
+                <KeyColumn dwd:design-time-name="fde04b33-a837-4c07-b792-eec1d603692e">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="700365a3-d7e8-409b-9811-65b0f27555b2">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="102d2d10-5ddc-40bd-8b21-fb2569b76469">
                     <TableID>dbo_EnergyData</TableID>
                     <ColumnID>LandID</ColumnID>
                   </Source>
@@ -628,7 +628,15 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="7940383e-8de6-4c01-9008-3df1dbc9021b">
+  <Source dwd:design-time-name="57dc7d21-365b-4230-9a4a-9cee6aecc62b">
     <DataSourceViewID>Energie Reporter</DataSourceViewID>
   </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="e0edb871-73f4-4641-a296-d0e289245768">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+    </MdxScript>
+  </MdxScripts>
 </Cube>
