@@ -7,8 +7,8 @@ GO
 BEGIN TRY
     BEGIN TRANSACTION;
 
-        PRINT 'Populating Fact_EnergyData Table from Municipality Historized Data';
-        INSERT INTO Fact_EnergyData (
+        PRINT 'Populating EnergyData Table from Municipality Historized Data';
+        INSERT INTO EnergyData (
             GemeindeID,
             KantonID,
             LandID,
@@ -84,8 +84,8 @@ BEGIN TRY
         INNER JOIN Kanton AS K ON em.canton = K.Kanton
         INNER JOIN Zeit AS Z ON (YEAR(em.energyreporter_date) * 10000) + (MONTH(em.energyreporter_date) * 100) + DAY(em.energyreporter_date) = Z.DateKey;
 
-        PRINT 'Populating Fact_EnergyData Table from Canton Historized Data';
-        INSERT INTO Fact_EnergyData (
+        PRINT 'Populating EnergyData Table from Canton Historized Data';
+        INSERT INTO EnergyData (
             GemeindeID,
             KantonID,
             LandID,
@@ -160,8 +160,8 @@ BEGIN TRY
         INNER JOIN Kanton AS K ON ec.canton = K.Kanton
         INNER JOIN Zeit AS Z ON (YEAR(ec.energyreporter_date) * 10000) + (MONTH(ec.energyreporter_date) * 100) + DAY(ec.energyreporter_date) = Z.DateKey;
 
-        PRINT 'Populating Fact_EnergyData Table from Country Historized Data';
-        INSERT INTO Fact_EnergyData (
+        PRINT 'Populating EnergyData Table from Country Historized Data';
+        INSERT INTO EnergyData (
             GemeindeID,
             KantonID,
             LandID,
@@ -233,16 +233,16 @@ BEGIN TRY
             en.renelec_production_date_from,
             en.renelec_production_date_until
         FROM ERStagingDB.dbo.ERCountry AS en
-        CROSS JOIN Dim_Land AS L  -- Since there is only one country, we can CROSS JOIN
+        CROSS JOIN Land AS L  -- Since there is only one country, we can CROSS JOIN
         INNER JOIN Zeit AS Z ON (YEAR(en.energyreporter_date) * 10000) + (MONTH(en.energyreporter_date) * 100) + DAY(en.energyreporter_date) = Z.DateKey;
 
     COMMIT TRANSACTION;
-    PRINT 'Fact_EnergyData Table populated successfully.';
+    PRINT 'EnergyData Table populated successfully.';
 END TRY
 BEGIN CATCH
     ROLLBACK TRANSACTION;
     DECLARE @ErrorMessage NVARCHAR(4000) = ERROR_MESSAGE();
-    PRINT 'Error occurred while populating Fact_EnergyData Table: ' + @ErrorMessage;
+    PRINT 'Error occurred while populating EnergyData Table: ' + @ErrorMessage;
     THROW; -- Re-throw the error to be handled by the calling process if needed
 END CATCH;
 GO

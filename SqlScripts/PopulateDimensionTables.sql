@@ -78,8 +78,8 @@ BEGIN TRY
 
         DROP TABLE #KantonNames;
 
-        PRINT 'Populating Dim_Land Table';
-        INSERT INTO Dim_Land (Land, ISOCode)
+        PRINT 'Populating Land Table';
+        INSERT INTO Land (Land, ISOCode)
         VALUES ('Schweiz', 'CH');
 
         PRINT 'Populating Zeit Table';
