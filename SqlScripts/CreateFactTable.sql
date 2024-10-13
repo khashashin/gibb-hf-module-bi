@@ -1,4 +1,4 @@
-USE ERDataWarehouseDB;
+USE EnergieReporter;
 GO
 
 PRINT 'Create Fact Table';
