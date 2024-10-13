@@ -65,6 +65,35 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
       <Value>100</Value>
     </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="128">
+            <Shape Id="Gemeinde ID" Expanded="true">
+              <Attributes>
+                <Attribute Id="Gemeinde ID" />
+                <Attribute Id="Bfs Nummer" />
+                <Attribute Id="Gemeindetyp" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Kanton" Expanded="false">
+              <Attributes>
+                <Attribute Id="Kanton" />
+              </Attributes>
+              <Position x="185" y="20" />
+            </Shape>
+            <Shape Id="Gemeindename" Expanded="false">
+              <Attributes>
+                <Attribute Id="Gemeindename" />
+              </Attributes>
+              <Position x="350" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
@@ -94,21 +123,17 @@
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="2da99639-e254-4a38-a4ec-90a34baf1ddf">
+        <AttributeRelationship dwd:design-time-name="aa6c6b51-c0a8-4d00-a72a-d2f51b50e333">
           <AttributeID>Bfs Nummer</AttributeID>
           <Name>Bfs Nummer</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="fe345895-ded6-4ad5-ae95-a81a3045c856">
-          <AttributeID>Gemeindename</AttributeID>
-          <Name>Gemeindename</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="9bc45c08-7d30-4503-ad39-c2cbb7d1efb9">
-          <AttributeID>Kanton</AttributeID>
-          <Name>Kanton</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="1924f353-e9d8-40e9-b94d-5805c4b4c6ab">
+        <AttributeRelationship dwd:design-time-name="3030e13f-d92b-4e29-abbc-e32fae7e740e">
           <AttributeID>Gemeindetyp</AttributeID>
           <Name>Gemeindetyp</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8922541c-1f1f-4439-8cd8-8e89e249bd88">
+          <AttributeID>Kanton</AttributeID>
+          <Name>Kanton</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
@@ -161,6 +186,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="50bb671f-ef5d-44aa-8faa-f2ad02e02b5d">
+          <AttributeID>Gemeindename</AttributeID>
+          <Name>Gemeindename</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>

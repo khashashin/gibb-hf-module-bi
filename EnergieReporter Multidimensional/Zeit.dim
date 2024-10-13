@@ -65,6 +65,52 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
       <Value>100</Value>
     </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="116">
+            <Shape Id="Date Key" Expanded="true">
+              <Attributes>
+                <Attribute Id="Date Key" />
+                <Attribute Id="Monatsname" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Jahr" Expanded="false">
+              <Attributes>
+                <Attribute Id="Jahr" />
+              </Attributes>
+              <Position x="170" y="20" />
+            </Shape>
+            <Shape Id="Quartal" Expanded="false">
+              <Attributes>
+                <Attribute Id="Quartal" />
+              </Attributes>
+              <Position x="320" y="20" />
+            </Shape>
+            <Shape Id="Monat" Expanded="false">
+              <Attributes>
+                <Attribute Id="Monat" />
+              </Attributes>
+              <Position x="470" y="20" />
+            </Shape>
+            <Shape Id="Tag" Expanded="false">
+              <Attributes>
+                <Attribute Id="Tag" />
+              </Attributes>
+              <Position x="620" y="20" />
+            </Shape>
+            <Shape Id="Datum" Expanded="false">
+              <Attributes>
+                <Attribute Id="Datum" />
+              </Attributes>
+              <Position x="770" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
@@ -92,29 +138,13 @@
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="9fe42fc4-d4eb-41dc-a4e5-a02697b804f5">
-          <AttributeID>Datum</AttributeID>
-          <Name>Datum</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="fee754d1-b3ca-46dc-b1f0-a91406acdb7e">
-          <AttributeID>Tag</AttributeID>
-          <Name>Tag</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="394e8529-07bd-4ef0-ac1a-20c3402309dd">
-          <AttributeID>Monat</AttributeID>
-          <Name>Monat</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="e2755a12-e57e-45b8-a6e0-18b0f2432847">
-          <AttributeID>Monatsname</AttributeID>
-          <Name>Monatsname</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="e412454d-db94-415e-81e1-356ead9c114b">
-          <AttributeID>Quartal</AttributeID>
-          <Name>Quartal</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="fac13cc7-de05-4c69-8d70-9154d637bb54">
+        <AttributeRelationship dwd:design-time-name="5ded5b01-319f-407c-b0d4-1af5cd90e810">
           <AttributeID>Jahr</AttributeID>
           <Name>Jahr</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="42fb143f-1e5f-4978-845e-37f98d25a191">
+          <AttributeID>Monatsname</AttributeID>
+          <Name>Monatsname</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
@@ -149,6 +179,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="f83b5b84-3ded-4cb9-9b7a-4741697916b5">
+          <AttributeID>Datum</AttributeID>
+          <Name>Datum</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -165,6 +201,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="d2ab7dd2-2a23-466f-8157-e4f866c1f296">
+          <AttributeID>Tag</AttributeID>
+          <Name>Tag</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -199,6 +241,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="6ad4403e-5dac-4b05-b2ce-227d4d8a6af3">
+          <AttributeID>Monat</AttributeID>
+          <Name>Monat</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -215,6 +263,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="9db16f7a-00b4-4741-9adb-2f7544f6d1a0">
+          <AttributeID>Quartal</AttributeID>
+          <Name>Quartal</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
